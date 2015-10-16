@@ -31,10 +31,9 @@
 
 
 
-<div class="swiper-container ">
- <div id="retourAccueil"><a href="../index.html"><img src="img/home.png"/></a></div>
-  <div class="swiper-wrapper chapitre1">
- 
+<div class="swiper-container">
+<div id="retourAccueil"><a href="../index.html"><img src="img/home.png"/></a></div>
+  <div class="swiper-wrapper">
   <div class="swiper-slide page0" data-hash="slide0">
   <div id="text">
   <div id="textechargement">
@@ -49,7 +48,7 @@
     </center>
     </div>
     <div id="chargement"></div>
-    <div class="next"> <img id="next0" src="img/next.png" alt="menu" class="arrow-right" /> </div>
+    <div class="next"> <img id="next" src="img/next.png" alt="menu" class="arrow-right" /> </div>
     <div class="prev"> <A href="../index.html"><img id="prev" src="img/prev-chap.png" alt="menu" /></A></div>
     </div>
     
@@ -90,8 +89,8 @@
         <div id="bulle1BIG">A cette époque, la Grèce n'était pas un pays unifié. Chaque île, chaque ville, avait son roi. Et parmi toutes, c'était la Crète la plus grande et la plus puissante des nations.</div>
         <div id="yeuxminos"> </div>
         <div id="yeuxpasiphae"> </div>
-          <div class="next"> <img id="next1" src="img/next.png" alt="menu" class="arrow-right" /> </div>
-          <div class="prev"> <img id="prev1" src="img/prev.png" alt="menu" class="arrow-left" /></div>
+          <div class="next"> <img id="next" src="img/next.png" alt="menu" class="arrow-right" /> </div>
+          <div class="prev"> <img id="prev" src="img/prev.png" alt="menu" class="arrow-left" /></div>
       </div>
     </div>
     
@@ -125,8 +124,8 @@
    <!--     <div id="btnPlus2"></div>-->
         <div id="chouette2"></div>
         <div id="trident"></div>
-          <div class="next"> <img id="next2" src="img/next.png" alt="menu" class="arrow-right" /> </div>
-           <div class="prev"> <img id="prev2" src="img/prev.png" alt="menu" class="arrow-left" /></div>
+          <div class="next"> <img id="next" src="img/next.png" alt="menu" class="arrow-right" /> </div>
+           <div class="prev"> <img id="prev" src="img/prev.png" alt="menu" class="arrow-left" /></div>
       </div>
     </div>
     
@@ -156,8 +155,8 @@
         <div id="chouette3"></div>
         <div id="pasiphae" > </div>
         <div id="bbminotaure"></div>
-        <div class="next"> <img id="next3" src="img/next.png" alt="menu" class="arrow-right" /> </div>
-         <div class="prev"> <img id="prev3" src="img/prev.png" alt="menu" class="arrow-left" /></div>
+        <div class="next"> <img id="next" src="img/next.png" alt="menu" class="arrow-right" /> </div>
+         <div class="prev"> <img id="prev" src="img/prev.png" alt="menu" class="arrow-left" /></div>
       </div>
     </div>
     
@@ -191,8 +190,8 @@
         <div id="cnuage10"> </div>-->
         <div class="bulle41">Personne ne pourra sortir d'ici</div> 
         <div class="bulle42">Je l'espère...</div>
-         <div class="prev"> <img id="prev4" src="img/prev.png" alt="menu" class="arrow-left" /></div>
-        <div class="next"> <a href="chapitre2.html"><img id="next4" src="img/next-chap.png" alt="menu" /></a> </div>
+         <div class="prev"> <img id="prev" src="img/prev.png" alt="menu" class="arrow-left" /></div>
+        <div class="next"> <a href="chapitre2.html"><img id="next" src="img/next-chap.png" alt="menu" /></a> </div>
       </div>
     </div>
     
@@ -216,35 +215,27 @@
         
         </div>
 </div>
-
+<script src="js/idangerous.swiper-2.1.min.js"></script> 
+<script src="js/idangerous.swiper.hashnav-1.0.js"></script> 
 <script>
-
-$("#menu").click(function (){
-          $(".chapitres").toggleClass("visible");
-          });
-		  
-		   $(".chapitresfermer").click(function (){
-          $(".chapitres").toggleClass("visible");
-          });
-		  
-		  
- $('#next0').click(function(){
-		$( ".swiper-wrapper" ).animate({
-  
-    left: "-100%",
-
-  }, 500, function() {
-    // Animation complete.
-  });
-	
-	$('#bruit1').playMedia();
-		$('#voix1').playMedia();
-		
-		
-$("#chargement").css("animation-play-state", "paused");
-		   	   
+  var workflow = {
 	  
-	  	$("#nuage1").css("animation-play-state", "running");
+	  
+	  0: {
+			play	: function() {
+				$("#chargement").css("animation-play-state", "running");
+				
+			},
+			pause	: function() {
+				$("#chargement").css("animation-play-state", "paused");
+			
+			}
+		},
+	  
+	  
+  1: {
+			play	: function() {
+				$("#nuage1").css("animation-play-state", "running");
 				$("#nuage2").css("animation-play-state", "running");
 				$("#nuage3").css("animation-play-state", "running");
 				$("#nuage4").css("animation-play-state", "running");
@@ -257,19 +248,10 @@ $("#chargement").css("animation-play-state", "paused");
 				$("#bruit1").playMedia();
 			
 				$("#voix1").get(0).play();
-	
-});
- 
-  	$('#next1').click(function(){
-		$( ".swiper-wrapper" ).animate({
-  
-    left: "-200%",
-
-  }, 500, function() {
-    // Animation complete.
-  });
-		
-			$("#nuage1").css("animation-play-state", "paused");
+				
+			},
+			pause	: function() {
+				$("#nuage1").css("animation-play-state", "paused");
 				$("#nuage2").css("animation-play-state", "paused");
 				$("#nuage3").css("animation-play-state", "paused");
 				$("#nuage4").css("animation-play-state", "paused");
@@ -279,14 +261,17 @@ $("#chargement").css("animation-play-state", "paused");
 				$("#yeuxminos").css("animation-play-state", "paused");
 				$("#yeuxpasiphae").css("animation-play-state", "paused");
 				
-				
 					 $('#voix1')[0].pause();
     				$('#voix1')[0].currentTime = 0;
 					 $('#bruit1')[0].pause();
     				$('#bruit1')[0].currentTime = 0;
-					
-		
-			$("#bnuage1").css("animation-play-state", "running");
+				
+						
+			}
+		},
+		2: {
+			play	: function() {
+				$("#bnuage1").css("animation-play-state", "running");
 				$("#bnuage2").css("animation-play-state", "running");
 				$("#bnuage3").css("animation-play-state", "running");
 				$("#bnuage9").css("animation-play-state", "running");
@@ -297,24 +282,10 @@ $("#chargement").css("animation-play-state", "paused");
 
 				$("#voix2").playMedia();
 	
-	
-
-	
-});
-
-
-$('#next2').click(function(){
-	
-	
-	$( ".swiper-wrapper" ).animate({
-  
-    left: "-300%",
-
-  }, 500, function() {
-    // Animation complete.
-  });
-	
-		$("#bnuage1").css("animation-play-state", "paused");
+			
+				 },
+			pause	: function() {
+				$("#bnuage1").css("animation-play-state", "paused");
 				$("#bnuage2").css("animation-play-state", "paused");
 				$("#bnuage3").css("animation-play-state", "paused");
 				$("#bnuage9").css("animation-play-state", "paused");
@@ -325,33 +296,32 @@ $('#next2').click(function(){
     				$('#voix2')[0].currentTime = 0;
 					 $('#bruit2')[0].pause();
     				$('#bruit2')[0].currentTime = 0;
-					
-						$("#pasiphae").css("animation-play-state", "running");
+		
+				 }
+		},
+		3: {
+			play	: function() {
+				$("#pasiphae").css("animation-play-state", "running");
 				$("#bbminotaure").css("animation-play-state", "running");
 				
 				$("#bruit3").playMedia();
 
 				$("#voix3").playMedia();
-		
-	   
-		
 	
-	
-});
-
-
-$('#next3').click(function(){
-	
-	$( ".swiper-wrapper" ).animate({
-  
-    left: "-400%",
-
-  }, 500, function() {
-    // Animation complete.
-  });
-		
-		
-			$(".bulle41").css("animation-play-state", "running");
+				 },
+			pause	: function() {
+				$("#pasiphae").css("animation-play-state", "paused");
+				$("#bbminotaure").css("animation-play-state", "paused");
+				 $('#voix3')[0].pause();
+    				$('#voix3')[0].currentTime = 0;
+					 $('#bruit3')[0].pause();
+    				$('#bruit3')[0].currentTime = 0;
+			}
+		},
+		4: {
+			play	: function() {
+			
+				$(".bulle41").css("animation-play-state", "running");
 				$(".bulle42").css("animation-play-state", "running");
 				$("#murarriere").css("animation-play-state", "running");
 				$("#minotaure").css("animation-play-state", "running");
@@ -361,133 +331,12 @@ $('#next3').click(function(){
 				$("#bruit4").playMedia();
 			
 				$("#voix4").playMedia();
-				
-				
-					$("#pasiphae").css("animation-play-state", "paused");
-				$("#bbminotaure").css("animation-play-state", "paused");
-				 $('#voix3')[0].pause();
-    				$('#voix3')[0].currentTime = 0;
-					 $('#bruit3')[0].pause();
-    				$('#bruit3')[0].currentTime = 0;
-		   
 		
-	
-});
-
-
-$('#prev1').click(function(){
-	
-		$( ".swiper-wrapper" ).animate({
-  
-    left: "0%",
-
-  }, 500, function() {
-    // Animation complete.
-  });
-	
-			$("#nuage1").css("animation-play-state", "paused");
-				$("#nuage2").css("animation-play-state", "paused");
-				$("#nuage3").css("animation-play-state", "paused");
-				$("#nuage4").css("animation-play-state", "paused");
-				$("#nuage5").css("animation-play-state", "paused");
-				$(".bulle1").css("animation-play-state", "paused");
-				$(".bulle2").css("animation-play-state", "paused");
-				$("#yeuxminos").css("animation-play-state", "paused");
-				$("#yeuxpasiphae").css("animation-play-state", "paused");
+			},
+			pause	: function() {
 				
-					 $('#voix1')[0].pause();
-    				$('#voix1')[0].currentTime = 0;
-					 $('#bruit1')[0].pause();
-    				$('#bruit1')[0].currentTime = 0;
-					
-						$("#chargement").css("animation-play-state", "running")
-	
-
-	
-});
-
-
-
-
-$('#prev2').click(function(){
-	
-		$( ".swiper-wrapper" ).animate({
-  
-    left: "-100%",
-
-  }, 500, function() {
-    // Animation complete.
-  });
-	
-	$("#nuage1").css("animation-play-state", "paused");
-				$("#nuage2").css("animation-play-state", "paused");
-				$("#nuage3").css("animation-play-state", "paused");
-				$("#nuage4").css("animation-play-state", "paused");
-				$("#nuage5").css("animation-play-state", "paused");
-				$(".bulle1").css("animation-play-state", "paused");
-				$(".bulle2").css("animation-play-state", "paused");
-				$("#yeuxminos").css("animation-play-state", "paused");
-				$("#yeuxpasiphae").css("animation-play-state", "paused");
-				
-					 $('#voix1')[0].pause();
-    				$('#voix1')[0].currentTime = 0;
-					 $('#bruit1')[0].pause();
-    				$('#bruit1')[0].currentTime = 0;
-					
-					$("#chargement").css("animation-play-state", "running")
-	
-	
-
-	
-});
-
-
-$('#prev3').click(function(){
-	
-		$( ".swiper-wrapper" ).animate({
-  
-    left: "-200%",
-
-  }, 500, function() {
-    // Animation complete.
-  });
-	
-			$("#pasiphae").css("animation-play-state", "paused");
-				$("#bbminotaure").css("animation-play-state", "paused");
-				 $('#voix3')[0].pause();
-    				$('#voix3')[0].currentTime = 0;
-					 $('#bruit3')[0].pause();
-    				$('#bruit3')[0].currentTime = 0;
-	
-	
-	$("#bnuage1").css("animation-play-state", "running");
-				$("#bnuage2").css("animation-play-state", "running");
-				$("#bnuage3").css("animation-play-state", "running");
-				$("#bnuage9").css("animation-play-state", "running");
-				$("#bnuage10").css("animation-play-state", "running");
-				$("#trident").css("animation-play-state", "running");
-				
-				$("#bruit2").playMedia();
-
-				$("#voix2").playMedia();
-	
-	
-
-	
-});
-
-
-$('#prev4').click(function(){
-	
-	
-		$( ".swiper-wrapper" ).animate({
-  
-    left: "-300%",
-
-  }, 500, function() {
-    // Animation complete.
-  });
-			$(".bulle41").css("animation-play-state", "paused");
+			
+				$(".bulle41").css("animation-play-state", "paused");
 				$(".bulle42").css("animation-play-state", "paused");
 				$("#murarriere").css("animation-play-state", "paused");
 				$("#minotaure").css("animation-play-state", "paused");
@@ -497,21 +346,34 @@ $('#prev4').click(function(){
     				$('#voix4')[0].currentTime = 0;
 					 $('#bruit4')[0].pause();
     				$('#bruit4')[0].currentTime = 0;
-					
-					
-						$("#pasiphae").css("animation-play-state", "running");
-				$("#bbminotaure").css("animation-play-state", "running");
-				
-				$("#bruit3").playMedia();
-
-				$("#voix3").playMedia();
-		   
-		
-
-});
-
+			}
+		}
+	};
   
- 
+   mySwiper = new Swiper('.swiper-container',{
+		pagination: false,
+		paginationClickable: true,
+		hashNav: false,
+		simulateTouch : false,
+		onlyExternal:true,
+		onFirstInit: function(s) {
+			// Arrêt de toutes les animations
+			$.each(workflow, function(i, v) {
+				v.pause();
+			});
+			
+			// Exécution des animations du 1er slide
+			workflow[s.activeIndex].play();
+		},
+		onSlideChangeStart: function(s) {
+			// Arrêt des animations du slide précédent
+			workflow[s.previousIndex].pause();
+		},
+		onSlideChangeEnd: function(s) {
+			// Exécution des animations du slide actif
+			workflow[s.activeIndex].play();
+		}
+	  })
 	  	$play1 = true;
 	  	$play2 = true;
 	  	$play3 = true;
@@ -572,6 +434,22 @@ $('#prev4').click(function(){
 		$('#voix4').pauseMedia();
 	});*/
 	
+	 $('.arrow-left').on('click', function(e){
+    e.preventDefault()
+    mySwiper.swipePrev()
+  })
+  $('.arrow-right').on('click', function(e){
+    e.preventDefault()
+    mySwiper.swipeNext()
+  })
+  
+  $("#menu").click(function (){
+          $(".chapitres").toggleClass("visible");
+          });
+		  
+		   $(".chapitresfermer").click(function (){
+          $(".chapitres").toggleClass("visible");
+          });
   
   </script> 
 <script src="js/encart.js"></script>

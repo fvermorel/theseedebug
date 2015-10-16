@@ -12,9 +12,9 @@
 	-webkit-transition: left 50s linear;
 	-moz-transition: left 50s linear;
 	transition: left 50s linear;
-	-webkit-animation: nuage12 50s linear infinite;
-	-moz-animation: nuage12 50s linear infinite;
-	animation: nuage12 50s linear infinite;
+	-webkit-animation: nuage12 50s linear infinite paused;
+	-moz-animation: nuage12 50s linear infinite paused;
+	animation: nuage12 50s linear infinite paused;
 }
 @-webkit-keyframes nuage12 {
  0% {
@@ -58,9 +58,9 @@
 	-webkit-transition: left 60s linear;
 	-moz-transition: left 60s linear;
 	transition: left 60s linear;
-	-webkit-animation: nuage22 60s linear infinite;
-	-moz-animation: nuage22 60s linear infinite;
-	animation: nuage22 60s linear infinite;
+	-webkit-animation: nuage22 60s linear infinite paused;
+	-moz-animation: nuage22 60s linear infinite paused;
+	animation: nuage22 60s linear infinite paused;
 }
  @-webkit-keyframes nuage22 {
  0% {
@@ -116,9 +116,9 @@
 	-webkit-transition: left 55s linear;
 	-moz-transition: left 55s linear;
 	transition: left 55s linear;
-	-webkit-animation: nuage32 55s linear infinite;
-	-moz-animation: nuage32 55s linear infinite;
-	animation: nuage32 55s linear infinite;
+	-webkit-animation: nuage32 55s linear infinite paused;
+	-moz-animation: nuage32 55s linear infinite paused;
+	animation: nuage32 55s linear infinite paused;
 }
 @-webkit-keyframes nuage32 {
  0% {
@@ -175,9 +175,9 @@
 	-webkit-transition: left 30s linear;
 	-moz-transition: left 30s linear;
 	transition: left 30s linear;
-	-webkit-animation: nuage42 30s linear infinite;
-	-moz-animation: nuage42 30s linear infinite;
-	animation: nuage42 30s linear infinite;
+	-webkit-animation: nuage42 30s linear infinite paused;
+	-moz-animation: nuage42 30s linear infinite paused;
+	animation: nuage42 30s linear infinite paused;
 }
 @-webkit-keyframes nuage42 {
  0% {
@@ -221,9 +221,9 @@
 	-webkit-transition: left 38s linear;
 	-moz-transition: left 38s linear;
 	transition: left 38s linear;
-	-webkit-animation: nuage52 38s linear infinite;
-	-moz-animation: nuage52 38s linear infinite;
-	animation: nuage52 38s linear infinite;
+	-webkit-animation: nuage52 38s linear infinite paused;
+	-moz-animation: nuage52 38s linear infinite paused;
+	animation: nuage52 38s linear infinite paused;
 }
 @-webkit-keyframes nuage52 {
  0% {
@@ -279,9 +279,9 @@
 	-webkit-transition: left 42s linear;
 	-moz-transition: left 42s linear;
 	transition: left 42s linear;
-	-webkit-animation: nuage62 42s linear infinite;
-	-moz-animation: nuage62 42s linear infinite;
-	animation: nuage62 42s linear infinite;
+	-webkit-animation: nuage62 42s linear infinite paused;
+	-moz-animation: nuage62 42s linear infinite paused;
+	animation: nuage62 42s linear infinite paused;
 }
 @-webkit-keyframes nuage62 {
  0% {
@@ -337,9 +337,9 @@
 	-webkit-transition: left 48s linear;
 	-moz-transition: left 48s linear;
 	transition: left 48s linear;
-	-webkit-animation: nuage72 48s linear infinite;
-	-moz-animation: nuage72 48s linear infinite;
-	animation: nuage72 48s linear infinite;
+	-webkit-animation: nuage72 48s linear infinite paused;
+	-moz-animation: nuage72 48s linear infinite paused;
+	animation: nuage72 48s linear infinite paused;
 }
 @-webkit-keyframes nuage72 {
  0% {
@@ -396,9 +396,9 @@
 	-webkit-transition: left 40s linear;
 	-moz-transition: left 40s linear;
 	transition: left 40s linear;
-	-webkit-animation: nuage82 40s linear infinite;
-	-moz-animation: nuage82 40s linear infinite;
-	animation: nuage82 40s linear infinite;
+	-webkit-animation: nuage82 40s linear infinite paused;
+	-moz-animation: nuage82 40s linear infinite paused;
+	animation: nuage82 40s linear infinite paused;
 }
 @-webkit-keyframes nuage82 {
  0% {
@@ -442,9 +442,9 @@
 	-webkit-transition: left 50s linear;
 	-moz-transition: left 50s linear;
 	transition: left 50s linear;
-	-webkit-animation: nuage92 50s linear infinite;
-	-moz-animation: nuage92 50s linear infinite;
-	animation: nuage92 50s linear infinite;
+	-webkit-animation: nuage92 50s linear infinite paused;
+	-moz-animation: nuage92 50s linear infinite paused;
+	animation: nuage92 50s linear infinite paused;
 }
 @-webkit-keyframes nuage92 {
  0% {
@@ -500,9 +500,9 @@
 	-webkit-transition: left 62s linear;
 	-moz-transition: left 62s linear;
 	transition: left 62s linear;
-	-webkit-animation: nuage102 62s linear infinite;
-	-moz-animation: nuage102 62s linear infinite;
-	animation: nuage102 62s linear infinite;
+	-webkit-animation: nuage102 62s linear infinite paused;
+	-moz-animation: nuage102 62s linear infinite paused;
+	animation: nuage102 62s linear infinite paused;
 }
 @-webkit-keyframes nuage102 {
  0% {
@@ -561,9 +561,9 @@
 	-webkit-transition: left 54s linear;
 	-moz-transition: left 54s linear;
 	transition: left 54s linear;
-	-webkit-animation: nuage12 54s linear infinite;
-	-moz-animation: nuage12 54s linear infinite;
-	animation: nuage12 54s linear infinite;
+	-webkit-animation: nuage12 54s linear infinite paused;
+	-moz-animation: nuage12 54s linear infinite paused;
+	animation: nuage12 54s linear infinite paused;
 }
 @-webkit-keyframes nuage12 {
  0% {
@@ -607,9 +607,9 @@
 	-webkit-transition: left 72s linear;
 	-moz-transition: left 72s linear;
 	transition: left 72s linear;
-	-webkit-animation: nuage22 72s linear infinite;
-	-moz-animation: nuage22 72s linear infinite;
-	animation: nuage22 72s linear infinite;
+	-webkit-animation: nuage22 72s linear infinite paused;
+	-moz-animation: nuage22 72s linear infinite paused;
+	animation: nuage22 72s linear infinite paused;
 }
  @-webkit-keyframes nuage22 {
  0% {
@@ -665,9 +665,9 @@
 	-webkit-transition: left 65s linear;
 	-moz-transition: left 65s linear;
 	transition: left 65s linear;
-	-webkit-animation: nuage32 65s linear infinite;
-	-moz-animation: nuage32 65s linear infinite;
-	animation: nuage32 65s linear infinite;
+	-webkit-animation: nuage32 65s linear infinite paused;
+	-moz-animation: nuage32 65s linear infinite paused;
+	animation: nuage32 65s linear infinite paused;
 }
 @-webkit-keyframes nuage32 {
  0% {
@@ -724,9 +724,9 @@
 	-webkit-transition: left 32s linear;
 	-moz-transition: left 32s linear;
 	transition: left 32s linear;
-	-webkit-animation: nuage42 32s linear infinite;
-	-moz-animation: nuage42 32s linear infinite;
-	animation: nuage42 32s linear infinite;
+	-webkit-animation: nuage42 32s linear infinite paused;
+	-moz-animation: nuage42 32s linear infinite paused;
+	animation: nuage42 32s linear infinite paused;
 }
 @-webkit-keyframes nuage42 {
  0% {
@@ -770,9 +770,9 @@
 	-webkit-transition: left 36s linear;
 	-moz-transition: left 36s linear;
 	transition: left 36s linear;
-	-webkit-animation: nuage52 36s linear infinite;
-	-moz-animation: nuage52 36s linear infinite;
-	animation: nuage52 36s linear infinite;
+	-webkit-animation: nuage52 36s linear infinite paused;
+	-moz-animation: nuage52 36s linear infinite paused;
+	animation: nuage52 36s linear infinite paused;
 }
 @-webkit-keyframes nuage52 {
  0% {
@@ -828,9 +828,9 @@
 	-webkit-transition: left 42s linear;
 	-moz-transition: left 42s linear;
 	transition: left 42s linear;
-	-webkit-animation: nuage62 42s linear infinite;
-	-moz-animation: nuage62 42s linear infinite;
-	animation: nuage62 42s linear infinite;
+	-webkit-animation: nuage62 42s linear infinite paused;
+	-moz-animation: nuage62 42s linear infinite paused;
+	animation: nuage62 42s linear infinite paused;
 }
 @-webkit-keyframes nuage62 {
  0% {
@@ -886,9 +886,9 @@
 	-webkit-transition: left 44s linear;
 	-moz-transition: left 44s linear;
 	transition: left 44s linear;
-	-webkit-animation: nuage72 44s linear infinite;
-	-moz-animation: nuage72 44s linear infinite;
-	animation: nuage72 44s linear infinite;
+	-webkit-animation: nuage72 44s linear infinite paused;
+	-moz-animation: nuage72 44s linear infinite paused;
+	animation: nuage72 44s linear infinite paused;
 }
 @-webkit-keyframes nuage72 {
  0% {
@@ -945,9 +945,9 @@
 	-webkit-transition: left 40s linear;
 	-moz-transition: left 40s linear;
 	transition: left 40s linear;
-	-webkit-animation: nuage82 40s linear infinite;
-	-moz-animation: nuage82 40s linear infinite;
-	animation: nuage82 40s linear infinite;
+	-webkit-animation: nuage82 40s linear infinite paused;
+	-moz-animation: nuage82 40s linear infinite paused;
+	animation: nuage82 40s linear infinite paused;
 }
 @-webkit-keyframes nuage82 {
  0% {
@@ -991,9 +991,9 @@
 	-webkit-transition: left 50s linear;
 	-moz-transition: left 50s linear;
 	transition: left 50s linear;
-	-webkit-animation: nuage92 50s linear infinite;
-	-moz-animation: nuage92 50s linear infinite;
-	animation: nuage92 50s linear infinite;
+	-webkit-animation: nuage92 50s linear infinite paused;
+	-moz-animation: nuage92 50s linear infinite paused;
+	animation: nuage92 50s linear infinite paused;
 }
 @-webkit-keyframes nuage92 {
  0% {
@@ -1049,9 +1049,9 @@
 	-webkit-transition: left 60s linear;
 	-moz-transition: left 60s linear;
 	transition: left 60s linear;
-	-webkit-animation: nuage102 60s linear infinite;
-	-moz-animation: nuage102 60s linear infinite;
-	animation: nuage102 60s linear infinite;
+	-webkit-animation: nuage102 60s linear infinite paused;
+	-moz-animation: nuage102 60s linear infinite paused;
+	animation: nuage102 60s linear infinite paused;
 }
 @-webkit-keyframes nuage102 {
  0% {
@@ -1110,9 +1110,9 @@
 	-webkit-transition: left 54s linear;
 	-moz-transition: left 54s linear;
 	transition: left 54s linear;
-	-webkit-animation: nuage12 54s linear infinite;
-	-moz-animation: nuage12 54s linear infinite;
-	animation: nuage12 54s linear infinite;
+	-webkit-animation: nuage12 54s linear infinite paused;
+	-moz-animation: nuage12 54s linear infinite paused;
+	animation: nuage12 54s linear infinite paused;
 }
 @-webkit-keyframes nuage12 {
  0% {
@@ -1156,9 +1156,9 @@
 	-webkit-transition: left 72s linear;
 	-moz-transition: left 72s linear;
 	transition: left 72s linear;
-	-webkit-animation: nuage22 72s linear infinite;
-	-moz-animation: nuage22 72s linear infinite;
-	animation: nuage22 72s linear infinite;
+	-webkit-animation: nuage22 72s linear infinite paused;
+	-moz-animation: nuage22 72s linear infinite paused;
+	animation: nuage22 72s linear infinite paused;
 }
  @-webkit-keyframes nuage22 {
  0% {
@@ -1214,9 +1214,9 @@
 	-webkit-transition: left 60s linear;
 	-moz-transition: left 60s linear;
 	transition: left 60s linear;
-	-webkit-animation: nuage32 60s linear infinite;
-	-moz-animation: nuage32 60s linear infinite;
-	animation: nuage32 60s linear infinite;
+	-webkit-animation: nuage32 60s linear infinite paused;
+	-moz-animation: nuage32 60s linear infinite paused;
+	animation: nuage32 60s linear infinite paused;
 }
 @-webkit-keyframes nuage32 {
  0% {
@@ -1273,9 +1273,9 @@
 	-webkit-transition: left 30s linear;
 	-moz-transition: left 30s linear;
 	transition: left 30s linear;
-	-webkit-animation: nuage42 30s linear infinite;
-	-moz-animation: nuage42 30s linear infinite;
-	animation: nuage42 30s linear infinite;
+	-webkit-animation: nuage42 30s linear infinite paused;
+	-moz-animation: nuage42 30s linear infinite paused;
+	animation: nuage42 30s linear infinite paused;
 }
 @-webkit-keyframes nuage42 {
  0% {
@@ -1319,9 +1319,9 @@
 	-webkit-transition: left 36s linear;
 	-moz-transition: left 36s linear;
 	transition: left 36s linear;
-	-webkit-animation: nuage52 36s linear infinite;
-	-moz-animation: nuage52 36s linear infinite;
-	animation: nuage52 36s linear infinite;
+	-webkit-animation: nuage52 36s linear infinite paused;
+	-moz-animation: nuage52 36s linear infinite paused;
+	animation: nuage52 36s linear infinite paused;
 }
 @-webkit-keyframes nuage52 {
  0% {
@@ -1377,9 +1377,9 @@
 	-webkit-transition: left 42s linear;
 	-moz-transition: left 42s linear;
 	transition: left 42s linear;
-	-webkit-animation: nuage62 42s linear infinite;
-	-moz-animation: nuage62 42s linear infinite;
-	animation: nuage62 42s linear infinite;
+	-webkit-animation: nuage62 42s linear infinite paused;
+	-moz-animation: nuage62 42s linear infinite paused;
+	animation: nuage62 42s linear infinite paused;
 }
 @-webkit-keyframes nuage62 {
  0% {
@@ -1435,9 +1435,9 @@
 	-webkit-transition: left 48s linear;
 	-moz-transition: left 48s linear;
 	transition: left 48s linear;
-	-webkit-animation: nuage72 48s linear infinite;
-	-moz-animation: nuage72 48s linear infinite;
-	animation: nuage72 48s linear infinite;
+	-webkit-animation: nuage72 48s linear infinite paused;
+	-moz-animation: nuage72 48s linear infinite paused;
+	animation: nuage72 48s linear infinite paused;
 }
 @-webkit-keyframes nuage72 {
  0% {
@@ -1494,9 +1494,9 @@
 	-webkit-transition: left 40s linear;
 	-moz-transition: left 40s linear;
 	transition: left 40s linear;
-	-webkit-animation: nuage82 40s linear infinite;
-	-moz-animation: nuage82 40s linear infinite;
-	animation: nuage82 40s linear infinite;
+	-webkit-animation: nuage82 40s linear infinite paused;
+	-moz-animation: nuage82 40s linear infinite paused;
+	animation: nuage82 40s linear infinite paused;
 }
 @-webkit-keyframes nuage82 {
  0% {
@@ -1540,9 +1540,9 @@
 	-webkit-transition: left 50s linear;
 	-moz-transition: left 50s linear;
 	transition: left 50s linear;
-	-webkit-animation: nuage92 50s linear infinite;
-	-moz-animation: nuage92 50s linear infinite;
-	animation: nuage92 50s linear infinite;
+	-webkit-animation: nuage92 50s linear infinite paused;
+	-moz-animation: nuage92 50s linear infinite paused;
+	animation: nuage92 50s linear infinite paused;
 }
 @-webkit-keyframes nuage92 {
  0% {
@@ -1598,9 +1598,9 @@
 	-webkit-transition: left 60s linear;
 	-moz-transition: left 60s linear;
 	transition: left 60s linear;
-	-webkit-animation: nuage102 60s linear infinite;
-	-moz-animation: nuage102 60s linear infinite;
-	animation: nuage102 60s linear infinite;
+	-webkit-animation: nuage102 60s linear infinite paused;
+	-moz-animation: nuage102 60s linear infinite paused;
+	animation: nuage102 60s linear infinite paused;
 }
 @-webkit-keyframes nuage102 {
  0% {
