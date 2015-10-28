@@ -725,7 +725,7 @@ canvas {
 	height: 8%;
 	width: 6%;
 	left: 82%;
-	top: 86%;
+	top: 89%;
 	z-index: 20;
 }
 
@@ -751,7 +751,7 @@ canvas {
 #chouette1.atterrissage1 {
 	background: url("../img/mini-chouette-retour.png") no-repeat;
 	left: 82%;
-	top: 86%;
+	top: 89%;
 	-webkit-animation: chouette-terre 2s step-start forwards;
 	-moz-animation: chouette-terre 2s step-start forwards;
 	animation: chouette-terre 2s step-start forwards;
@@ -762,7 +762,7 @@ canvas {
 #chouette2.atterrissage1 {
 	background: url("../img/mini-chouette-retour.png") no-repeat;
 	left: 82%;
-	top: 86%;
+	top: 89%;
 	-webkit-animation: chouette-terre 2s step-start forwards;
 	-moz-animation: chouette-terre 2s step-start forwards;
 	animation: chouette-terre 2s step-start forwards;
@@ -773,7 +773,7 @@ canvas {
 #chouette3.atterrissage1 {
 	background: url("../img/mini-chouette-retour.png") no-repeat;
 	left: 82%;
-	top: 86%;
+	top: 89%;
 	-webkit-animation: chouette-terre 2s step-start forwards;
 	-moz-animation: chouette-terre 2s step-start forwards;
 	animation: chouette-terre 2s step-start forwards;
@@ -784,7 +784,7 @@ canvas {
 #chouette4.atterrissage1 {
 	background: url("../img/mini-chouette-retour.png") no-repeat;
 	left: 82%;
-	top: 86%;
+	top: 89%;
 	-webkit-animation: chouette-terre 2s step-start forwards;
 	-moz-animation: chouette-terre 2s step-start forwards;
 	animation: chouette-terre 2s step-start forwards;
@@ -795,7 +795,7 @@ canvas {
 #chouette5.atterrissage1 {
 	background: url("../img/mini-chouette-retour.png") no-repeat;
 	left: 82%;
-	top: 86%;
+	top: 89%;
 	-webkit-animation: chouette-terre 2s step-start forwards;
 	-moz-animation: chouette-terre 2s step-start forwards;
 	animation: chouette-terre 2s step-start forwards;
@@ -806,7 +806,7 @@ canvas {
 #chouette6.atterrissage1 {
 	background: url("../img/mini-chouette-retour.png") no-repeat;
 	left: 82%;
-	top: 86%;
+	top: 89%;
 	-webkit-animation: chouette-terre 2s step-start forwards;
 	-moz-animation: chouette-terre 2s step-start forwards;
 	animation: chouette-terre 2s step-start forwards;
