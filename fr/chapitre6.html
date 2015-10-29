@@ -78,12 +78,12 @@
             ⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁ <br />
             Les ath&eacute;niens port&egrave;rent Th&eacute;s&eacute;e sur le tr&ocirc;ne. Il ne voulut pas &ecirc;tre un souverain gentil et faible comme &Eacute;g&eacute;e, non plus que dur et fort comme Minos. En fait, il ne voulut pas que le destin de toute une cit&eacute; d&eacute;pende du caract&egrave;re et des dispositions d'un seul homme, f&ucirc;t-il le roi, f&ucirc;t-il lui m&ecirc;me. Aussi mit-il en place le premier code des lois qui r&eacute;girait le gouvernement de la ville, sous le contr&ocirc;le et la direction d'une assembl&eacute;e &eacute;lue par le peuple. La d&eacute;mocratie ath&eacute;nienne &eacute;tait n&eacute;e, la toute premi&egrave;re du monde. Et ce fut le roi qui se mit au service du peuple et non plus le peuple au service du roi. </div>
         </div>
-        <div id="parchemin" style="animation-play-state: paused;"></div>
-        <div id="yeuxhomme" style="animation-play-state: paused;"></div>
-        <div id="yeuxgarcon" style="animation-play-state: paused;"></div>
-        <span class="bulle1" style="animation-play-state: paused;">C'est le roi Thésée... je suis impressionné</span> 
-        <span class="bulle2" style="animation-play-state: paused;">Sire, pouvez vous signer ce décret ?</span> 
-        <span class="bulle3" style="animation-play-state: paused;">Je m'ennuie...</span>
+        <div id="parchemin" class="pause"></div>
+        <div id="yeuxhomme" class="pause"></div>
+        <div id="yeuxgarcon" class="pause"></div>
+        <span class="bulle1 pause">C'est le roi Thésée... je suis impressionné</span> 
+        <span class="bulle2 pause">Sire, pouvez vous signer ce décret ?</span> 
+        <span class="bulle3 pause">Je m'ennuie...</span>
 
            <div class="next"> <img id="next1" src="img/next.png" alt="menu" class="arrow-right" /> </div>
             <div class="prev"> <img id="prev1" src="img/prev.png" alt="menu" class="arrow-left" /></div>
@@ -115,9 +115,9 @@
        <!-- <div id="btnPlus2"></div>-->
         <div id="chouette2"></div>
         <div id="plan1"></div>
-        <div id="nuage1" style="animation-play-state: paused;"></div>
-        <div id="nuage2" style="animation-play-state: paused;"></div>
-        <div id="nuage3" style="animation-play-state: paused;"></div>
+        <div id="nuage1" class="pause"></div>
+        <div id="nuage2" class="pause"></div>
+        <div id="nuage3" class="pause"></div>
            <div class="next"> <img id="next2" src="img/next.png" alt="menu" class="arrow-right" /> </div>
            <div class="prev"> <img id="prev2" src="img/prev.png" alt="menu" class="arrow-left" /></div>
       </div>
@@ -146,15 +146,15 @@
         <div id="bulle3BIG">Dyonisos est le fils de Zeus, dieu de la vigne et de la danse.  Vous lirez son histoire dans notre livre "Les Olympiens". </div>
        <!-- <div id="btnPlus3"></div>-->
         <div id="chouette3"></div>
-        <div id="bnuage1" style="animation-play-state: paused;"></div>
-        <div id="bnuage2" style="animation-play-state: paused;"></div>
-        <div id="bnuage3" style="animation-play-state: paused;"></div>
-        <div id="bnuage8" style="animation-play-state: paused;"></div>
-        <div id="bnuage9" style="animation-play-state: paused;"></div>
-        <div id="bnuage10" style="animation-play-state: paused;"></div>
-        <div id="brumearriere" style="animation-play-state: paused;"></div>
+        <div id="bnuage1" class="pause"></div>
+        <div id="bnuage2" class="pause"></div>
+        <div id="bnuage3" class="pause"></div>
+        <div id="bnuage8" class="pause"></div>
+        <div id="bnuage9" class="pause"></div>
+        <div id="bnuage10" class="pause"></div>
+        <div id="brumearriere" class="pause"></div>
         <div id="dionysos"></div>
-        <div id="brumeavant" style="animation-play-state: paused;"></div>
+        <div id="brumeavant" class="pause"></div>
         <div id="premierplan"></div>
            <div class="next"> <img id="next3" src="img/next.png" alt="menu" class="arrow-right" /> </div>
            <div class="prev"> <img id="prev3" src="img/prev.png" alt="menu" class="arrow-left" /></div>
@@ -227,15 +227,15 @@ $('#next0').click(function(){
 
 		
 		
-$("#chargement").css("animation-play-state", "paused");
+$("#chargement").addClass("pause");
 		   	   
 	  
-	  	$(".bulle1").css("animation-play-state", "running");
-				$(".bulle2").css("animation-play-state", "running");
-				$(".bulle3").css("animation-play-state", "running");
-				$("#parchemin").css("animation-play-state", "running");
-				$("#yeuxhomme").css("animation-play-state", "running");
-				$("#yeuxgarcon").css("animation-play-state", "running");
+	  	$(".bulle1").removeClass("pause");
+				$(".bulle2").removeClass("pause");
+				$(".bulle3").removeClass("pause");
+				$("#parchemin").removeClass("pause");
+				$("#yeuxhomme").removeClass("pause");
+				$("#yeuxgarcon").removeClass("pause");
 				
 				$("#bruit1").playMedia();
 			
@@ -252,12 +252,12 @@ $("#chargement").css("animation-play-state", "paused");
     // Animation complete.
   });
 		
-			$(".bulle1").css("animation-play-state", "paused");
-				$(".bulle2").css("animation-play-state", "paused");
-				$(".bulle3").css("animation-play-state", "paused");
-				$("#parchemin").css("animation-play-state", "paused");
-				$("#yeuxhomme").css("animation-play-state", "paused");
-				$("#yeuxgarcon").css("animation-play-state", "paused");
+			$(".bulle1").addClass("pause");
+				$(".bulle2").addClass("pause");
+				$(".bulle3").addClass("pause");
+				$("#parchemin").addClass("pause");
+				$("#yeuxhomme").addClass("pause");
+				$("#yeuxgarcon").addClass("pause");
 								
 					 $('#voix23')[0].pause();
     				$('#voix23')[0].currentTime = 0;
@@ -291,16 +291,16 @@ $('#next2').click(function(){
 					 $('#bruit2')[0].pause();
     				$('#bruit2')[0].currentTime = 0;
 					
-					$("#bnuage1").css("animation-play-state", "running");
-				$("#bnuage2").css("animation-play-state", "running");
-				$("#bnuage3").css("animation-play-state", "running");
-				$("#bnuage8").css("animation-play-state", "running");
-				$("#bnuage9").css("animation-play-state", "running");
-				$("#bnuage10").css("animation-play-state", "running");
-				$("#dionysos").css("animation-play-state", "running");
-				$("#brumearriere").css("animation-play-state", "running");
-				$("#brumeavant").css("animation-play-state", "running");
-				$("#premierplan").css("animation-play-state", "running");
+					$("#bnuage1").removeClass("pause");
+				$("#bnuage2").removeClass("pause");
+				$("#bnuage3").removeClass("pause");
+				$("#bnuage8").removeClass("pause");
+				$("#bnuage9").removeClass("pause");
+				$("#bnuage10").removeClass("pause");
+				$("#dionysos").removeClass("pause");
+				$("#brumearriere").removeClass("pause");
+				$("#brumeavant").removeClass("pause");
+				$("#premierplan").removeClass("pause");
 				
 				$("#bruit3").playMedia();
 		
@@ -324,16 +324,16 @@ $('#next3').click(function(){
   });
 		
 		
-			$("#bnuage1").css("animation-play-state", "paused");
-				$("#bnuage2").css("animation-play-state", "paused");
-				$("#bnuage3").css("animation-play-state", "paused");
-				$("#bnuage8").css("animation-play-state", "paused");
-				$("#bnuage9").css("animation-play-state", "paused");
-				$("#bnuage10").css("animation-play-state", "paused");
-				$("#dionysos").css("animation-play-state", "paused");
-				$("#brumearriere").css("animation-play-state", "paused");
-				$("#brumeavant").css("animation-play-state", "paused");
-				$("#premierplan").css("animation-play-state", "paused");
+			$("#bnuage1").addClass("pause");
+				$("#bnuage2").addClass("pause");
+				$("#bnuage3").addClass("pause");
+				$("#bnuage8").addClass("pause");
+				$("#bnuage9").addClass("pause");
+				$("#bnuage10").addClass("pause");
+				$("#dionysos").addClass("pause");
+				$("#brumearriere").addClass("pause");
+				$("#brumeavant").addClass("pause");
+				$("#premierplan").addClass("pause");
 
 					 $('#voix25')[0].pause();
     				$('#voix25')[0].currentTime = 0;
@@ -359,12 +359,12 @@ $('#prev1').click(function(){
     // Animation complete.
   });
 	
-			$(".bulle1").css("animation-play-state", "paused");
-				$(".bulle2").css("animation-play-state", "paused");
-				$(".bulle3").css("animation-play-state", "paused");
-				$("#parchemin").css("animation-play-state", "paused");
-				$("#yeuxhomme").css("animation-play-state", "paused");
-				$("#yeuxgarcon").css("animation-play-state", "paused");
+			$(".bulle1").addClass("pause");
+				$(".bulle2").addClass("pause");
+				$(".bulle3").addClass("pause");
+				$("#parchemin").addClass("pause");
+				$("#yeuxhomme").addClass("pause");
+				$("#yeuxgarcon").addClass("pause");
 								
 					 $('#voix23')[0].pause();
     				$('#voix23')[0].currentTime = 0;
@@ -396,12 +396,12 @@ $('#prev2').click(function(){
 					 $('#bruit2')[0].pause();
     				$('#bruit2')[0].currentTime = 0;
 				
-				$(".bulle1").css("animation-play-state", "running");
-				$(".bulle2").css("animation-play-state", "running");
-				$(".bulle3").css("animation-play-state", "running");
-				$("#parchemin").css("animation-play-state", "running");
-				$("#yeuxhomme").css("animation-play-state", "running");
-				$("#yeuxgarcon").css("animation-play-state", "running");
+				$(".bulle1").removeClass("pause");
+				$(".bulle2").removeClass("pause");
+				$(".bulle3").removeClass("pause");
+				$("#parchemin").removeClass("pause");
+				$("#yeuxhomme").removeClass("pause");
+				$("#yeuxgarcon").removeClass("pause");
 				
 				$("#bruit1").playMedia();
 			
@@ -425,16 +425,16 @@ $('#prev3').click(function(){
     // Animation complete.
   });
 	
-			$("#bnuage1").css("animation-play-state", "paused");
-				$("#bnuage2").css("animation-play-state", "paused");
-				$("#bnuage3").css("animation-play-state", "paused");
-				$("#bnuage8").css("animation-play-state", "paused");
-				$("#bnuage9").css("animation-play-state", "paused");
-				$("#bnuage10").css("animation-play-state", "paused");
-				$("#dionysos").css("animation-play-state", "paused");
-				$("#brumearriere").css("animation-play-state", "paused");
-				$("#brumeavant").css("animation-play-state", "paused");
-				$("#premierplan").css("animation-play-state", "paused");
+			$("#bnuage1").addClass("pause");
+				$("#bnuage2").addClass("pause");
+				$("#bnuage3").addClass("pause");
+				$("#bnuage8").addClass("pause");
+				$("#bnuage9").addClass("pause");
+				$("#bnuage10").addClass("pause");
+				$("#dionysos").addClass("pause");
+				$("#brumearriere").addClass("pause");
+				$("#brumeavant").addClass("pause");
+				$("#premierplan").addClass("pause");
 
 					 $('#voix25')[0].pause();
     				$('#voix25')[0].currentTime = 0;
@@ -468,16 +468,16 @@ $('#prev4').click(function(){
     				$('#bruit4')[0].currentTime = 0;
 					
 					
-				$("#bnuage1").css("animation-play-state", "running");
-				$("#bnuage2").css("animation-play-state", "running");
-				$("#bnuage3").css("animation-play-state", "running");
-				$("#bnuage8").css("animation-play-state", "running");
-				$("#bnuage9").css("animation-play-state", "running");
-				$("#bnuage10").css("animation-play-state", "running");
-				$("#dionysos").css("animation-play-state", "running");
-				$("#brumearriere").css("animation-play-state", "running");
-				$("#brumeavant").css("animation-play-state", "running");
-				$("#premierplan").css("animation-play-state", "running");
+				$("#bnuage1").removeClass("pause");
+				$("#bnuage2").removeClass("pause");
+				$("#bnuage3").removeClass("pause");
+				$("#bnuage8").removeClass("pause");
+				$("#bnuage9").removeClass("pause");
+				$("#bnuage10").removeClass("pause");
+				$("#dionysos").removeClass("pause");
+				$("#brumearriere").removeClass("pause");
+				$("#brumeavant").removeClass("pause");
+				$("#premierplan").removeClass("pause");
 				
 				$("#bruit3").playMedia();
 		

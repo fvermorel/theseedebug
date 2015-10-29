@@ -34,6 +34,12 @@ body {
 	visibility:visible!important;
 	
 }
+.pause {
+	-webkit-animation:  pause!important ;
+	-moz-animation:  pause!important;
+	animation:  pause!important;
+	
+}
 
 .popup {
 	width:50%;
@@ -95,9 +101,9 @@ body {
     z-index: 16;
 	top:21%;
 	left:30%;
-    -webkit-animation: chargement 3s linear 3;
-	-moz-animation: chargement 3s linear 3;
-	animation: chargement 3s linear 3;
+    -webkit-animation: chargement 3s linear 2;
+	-moz-animation: chargement 3s linear 2;
+	animation: chargement 3s linear 2;
 }
 @-webkit-keyframes chargement {
 0% {-webkit-transform:rotate(0deg); transform:rotate(0deg); transform-origin: 50% 50%;}
@@ -111,29 +117,33 @@ body {
 0% {-webkit-transform:rotate(0deg); transform:rotate(0deg); transform-origin: 50% 50%;}
 100% {-webkit-transform:rotate(360deg); transform:rotate(360deg);transform-origin: 50% 50%;}
 }
-}
+
 
 #next0 {
-	opacity:0;
-	    -webkit-animation: nextapparition 9s linear ;
-	-moz-animation: nextapparition 9s linear ;
-	animation: nextapparition 9s linear ;
-
 	
+	    -webkit-animation: nextapparition 5s  step-start ;
+	-moz-animation: nextapparition 5s  step-start ;
+	animation: nextapparition 5s  step-start;
+
 }
 
 @-webkit-keyframes nextapparition {
-0% {opacity:0;}
+	0% {opacity:0;}
+80% {opacity:0;}
 90% {opacity:1;}
 100% {opacity:1;}
 }
  @-moz-keyframes nextapparition {
-0% {opacity:0;}
+
+	0% {opacity:0;}
+80% {opacity:0;}
 90% {opacity:1;}
 100% {opacity:1;}
 }
  @keyframes nextapparition {
-0% {opacity:0;}
+
+	0% {opacity:0;}
+80% {opacity:0;}
 90% {opacity:1;}
 100% {opacity:1;}
 }
