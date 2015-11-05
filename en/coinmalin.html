@@ -3,22 +3,22 @@
   <head>
   <meta charset="UTF-8">
   <title>Demo</title>
-  <link rel="stylesheet" href="../fr/css/idangerous.swiper.css">
+  <link rel="stylesheet" href="css/idangerous.swiper.css">
   <style>
 /* Demo Styles */
 
 @font-face {
 	font-family: "Lucida Grande";
-	src: url(../../fr/img/LucidaGrande.ttc);
+	src: url(../img/LucidaGrande.ttc);
 }
 @font-face {
 	font-family: "EccentricStd";
-	src: url(../../fr/img/EccentricStd.otf);
+	src: url(../img/EccentricStd.otf);
 }
 
 @font-face{
 	font-family: "Offside-Regular";
-	src: url(../../fr/img/Offside-Regular.ttf);
+	src: url(../img/Offside-Regular.ttf);
 }
 
 body {
@@ -164,11 +164,7 @@ h6 {
 	letter-spacing: 0.05em;}
 	
 	
-.violet.active{
-	background-color:#800080;
-    color:#fff;
-	opacity:1;
-}
+
 
 .rose {
     color:#F3C;
@@ -178,11 +174,7 @@ h6 {
 	letter-spacing: 0.05em;}
 
 
-.rose.active{
-	background-color:#F3C;
-    color:#fff;
-	opacity:1;
-}
+
 
 .vert {
     color:#3C9;
@@ -190,11 +182,7 @@ h6 {
     font-size: 26px;
     font-weight: lighter;
 	letter-spacing: 0.05em;}
-.vert.active{
-	background-color:#3C9;
-    color:#fff;
-	opacity:1;
-}
+
 
 .orange {
     color:#F90;
@@ -202,11 +190,7 @@ h6 {
     font-size: 26px;
     font-weight: lighter;
 	letter-spacing: 0.05em;}
-.orange.active{
-	background-color:#F90;
-    color:#fff;
-	opacity:1;
-}
+
 
 .texteslide {
 	width: 30%;
@@ -225,62 +209,72 @@ h6 {
 .clear {
 	clear: both;
 }
+
+#wrapper {
+	  width: 1024px;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  height: 768px;
+	
+}
 </style>
-  <link rel="stylesheet" type="text/css" href="../fr/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-<div id="retourAccueil"><a href="index.html"><img src="../fr/img/home.png"/></a></div>
+  
+<div id="wrapper">
+	<div id="retourAccueil"><a href="../index_en.html"><img src="img/home.png"/></a></div>
 
-<div id="background" ><!-- ici seront chargés les background des pages --> 
-    <img id="page" src="../fr/resources/chapter7/img/1.jpg" class="coinmalin" /> </div>
-<div class="tabs"> <a href="#" class="violet">Géographie</a> <a href="#" class="rose" >Histoire de l'art</a> <a href="#" class="vert">Sciences</a> <a href="#" class="orange">Education Civique</a> </div>
+	<div id="background" ><!-- ici seront chargés les background des pages --> 
+    <img id="page" src="resources/chapter7/img/1.jpg" class="coinmalin" /> </div>
+	<div class="tabs"> <a href="#" class="violet active">Geography</a> <a href="#" class="rose" >Art history</a> <a href="#" class="vert">Sciences</a> <a href="#" class="orange">Civic Education</a> </div>
 <!--------------------------------------------------------------------------->
 <div class="swiper-container swiper-parent" style="clear:both;">
     <div class="swiper-wrapper">
     <div class="swiper-slide white-slide">
         <div class="bonus">
         <div class="colonnetextefull">
-            <h1 class="violet">Les lieux de l'histoire</h1>
-            <p> Mais où se passe l'histoire de Thésée et de Minos ? En Terre du Milieu ? Dans une lointaine galaxie ? Non, pas du tout. Ca se passe en Grèce, dans un pays qui n'est pas si loin que ça de chez toi. Et si tu le demandes gentiment à tes parents, ils t'y emmèneront peut-être un jour en vacances. </p>
+            <h1 class="violet">the scene of the story</h1>
+            <p> Where does the story of Theseus and Minos happen ? It happens in Greece, not so far from you are... </p>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="violet">la Grèce en Méditerrannée</h2>
-                <p>La mer méditerrannée est une mer intérieure qui borde trois continents : l’Afrique, l’Europe et l’Asie. C’est pour cela qu’elle a été un des grands lieux de rencontres entre les civilisations, et cela depuis le tout début de l’histoire.</p>
-                <h6>D.R.</h6>
+                <h2 class="violet">Greece in the Mediterranean</h2>
+                <p>The Mediterranean Sea is an inland sea bordering three continents: Africa, Europe and Asia. For this reason it is one of the biggest meeting places between civilizations, right from the beginning of history.  </p>
+                <h6>Rights Reserved</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/cartes/carte-01.png" > </div>
+            <div class="imageslide"> <img src="bonus/cartes/carte-01.png" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="violet">La mer Egée</h2>
-                <p>Ce pauvre Egée, en mourant, a donné son nom à la mer qui sépare la Grèce continentale de la côte turque : la mer Egée. Cette mer est parsemée de centaines d’îles. Certaines sont toutes petites, à peine des cailloux qui surnagent des flots, d’autres sont plus grandes et sont habitées. De nos jours, certaines îles appartiennent à la Grèce, d’autre à la Turquie.</p>
-                <h6>D.R.</h6>
+                <h2 class="violet">The Aegean Sea</h2>
+                <p>The Aegean Sea</p>
+                <h6>Rights Reserved</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/cartes/carte-02.png" > </div>
+            <div class="imageslide"> <img src="bonus/cartes/carte-02.png" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="violet">La Crète</h2>
-                <p>La Crète est la plus grande des îles de la mer Egée. A l’époque du roi Minos, elle est bien plus puissante que les petites cités du continent, qui se font toujours la guerre entre elles. De nos jours, elle est habitée par environ 600.000 personnes qui vivent en partie de l’agriculture et en partie du tourisme : ses plages sont parmi les plus belles de la Méditerrannée.</p>
-                <h6>D.R.</h6>
+                <h2 class="violet">Crete</h2>
+                <p>Crete is the biggest island in the Aegean Sea. At the epoch of King Minos, it was far more powerful than the small cities of the continent which usually make war between them. Today it is inhabited by about 600,000 people who live partly on agriculture and partly on tourism: its beaches are among the most beautiful of the Mediterranean.</p>
+                <h6>Rights Reserved</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/cartes/carte-03.png" > </div>
+            <div class="imageslide"> <img src="bonus/cartes/carte-03.png" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
                 <h2 class="violet">Cnossos</h2>
-                <p>C’est à Cnossos que régnait le roi Minos. Aujourd’hui, il ne reste de son palais que des ruines impressionnantes qui sont visitées chaque année par des dizaines de milliers de touristes. Si vous y allez, dites vous que c’est ici que Thésée et Ariane se sont rencontrés... il y a plus de trois mille ans.</p>
-                <h6>D.R.</h6>
+                <p>It was in Cnossos that king Minos reigned. Today, from his palace, only impressive ruins remain and are visited by dozens of thousands of tourists every year. If you go there, tell yourself it was there that Theseus and Adriane met ... more than three thousand years ago!</p>
+                <h6>Rights Reserved</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/cartes/carte-04.png" > </div>
+            <div class="imageslide"> <img src="bonus/cartes/carte-04.png" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="violet">Athènes</h2>
-                <p>Athènes a longtemps été une cité grecque de petite taille avant de monter en puissance et de devenir la première cité à adopter un fonctionnement démocratique. Au 5ème siècle avant Jésus Christ, elle sera habitée par les plus illustres des Philosophoes : Socrate, Platon, Aristote... Aujourd’hui, Athènes est la capitale de la Grèce et compte un peu plus de trois millions d’habitants.</p>
-                <h6>D.R.</h6>
+                <h2 class="violet">Athens</h2>
+                <p>For a long time Athens was a Greek city of a small size before it grew in power and became the first city to adopt a democratic functioning. In the 5th century before Jesus Christ, it would be the dwelling place for the most illustrious Philosophers: Socrates, Plato, Aristotle… Today Athens is the capital city of Greece and has more than three million inhabitants. </p>
+                 <h6>Rights Reserved</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/cartes/carte-05.png" > </div>
+            <div class="imageslide"> <img src="bonus/cartes/carte-05.png" > </div>
           </div>-
           </div>
       </div>
@@ -289,95 +283,95 @@ h6 {
     <div class="swiper-slide white-slide">
         <div class="bonus">
         <div class="colonnetextefull">
-            <h1 class="rose">Au travers des âges</h1>
-            <p> L'histoire de Thésée, de Minos, de Dédale, d'Icare, d'Ariane et du Minotaure a inspiré les artistes depuis des milliers d'années. Pour la raconter, ils ont écrit des livres, bien sûr, mais ils ont aussi peint des tableau, sculpté des statues, fait des poteries, tourné des films ou créé des jeux vidéo. Les derniers à avoir interprêté l'histoire, c'est nous, avec le livre numérique que tu tiens entre les mains.</p>
+            <h1 class="rose">Along the centuries</h1>
+            <p> The stories of Minos and Theseus have inspired a great deal of artists all along the centuries.  Here are some of the most remarkable ones:</p>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="rose">Thésée contre <br>le Minotaure</h2>
-                <p> Ce vase date de 460 avant Jésus Christ. A cette époque, l'art de la poterie était très développé chez les grecs. Ils s'en servaient pour conserver de l'huile, du vin et toutes sortes d'aliments.</p>
-                <h6>Vase datant de 460 avant JC : le combat de Thésée et du minotaure</h6>
+              
+                <p>-460.  This vase represents the fight between Theseus and the Minotaur. Ceramics is an art extremely developed in Ancient Greece and many museums have very important collections of them.</p>
+               
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/h1.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/h1.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="rose">Le minotaure et Pasiphaé</h2>
-                <p> Cette représentation date de 340 avant Jésus Christ. Les grecs représentaient l'histoire avec humour : observez la mine mécontente de Pasiphaé alors qu'elle s'apprête à donner le sein à son bébé !</p>
-                <h6>Detail, 340 avant JC : Le minotaure avec sa mère, Pasiphaé</h6>
+          
+                <p> -340. This representation of the Minotaur and his mother, Pasiphae, is an evidence of the ancient artists’ sense of humor.</p>
+             
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/h2.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/h2.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="rose">"Bacchus et Ariane" <br>de Titien</h2>
-                <p> Bachus est l'autre nom de Dyonisos. Après une pause pendant le moyen âge, les artistes du 16ème siècle redécouvrent les histoires grecques. En 1520, Titien peint cette toile représentant la rencontre de Dyonisos et d'Ariane. Vous pouvez la voir à la National Gallery, à Londres</p>
-                <h6>Titien, Bacchus et Ariane, 1520-1523, National Gallery, Londres</h6>
+               
+                <p> Between 1520 and 1523 « Adriane in Naxos », by Titian. This painting is conserved at the national Gallery in London. Adriane has a movement of fright in front of the cortège of Dionysus and the countless creatures following him. But the look of the god who flies in the air is anything but threatening.</p>
+                
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/h3.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/h3.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="rose">"Bacchus et Ariane" <br>de Sebastiano Ricci</h2>
-                <p> Tout au long des siècles, les peintres multiplient les représentations de l'histoire mais en apportant à chaque fois leur touche personnelle. Dans cette toile peinte en 1710, Dyonisos découvre Ariane alors qu'elle est endormie et on a presque l'impression d'être plongé dans le rêve de la princesse crêtoise.</p>
-                <h6>Sebastiano Ricci, Bacchus et Ariane, 1700-1710</h6>
+                
+                <p> 1700-1710 : Bacchius and Adriane, oil painting by Sebastino Ricci, conserved at the national Gallery in London. This time, the artist represented Adriane asleep and Dionysus coming to her as if in a dream. </p>
+                
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/h4.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/h4.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="rose">"Thésée retrouve l’épée <br>de son père" <br>de Nicolas Poussin</h2>
-                <p> Quand Nicolas Poussin peint ce tableau en 1638, il s'intéresse autant à la scène et aux personnages qu'aux décors et à la représentation des monuments. Vpus pourrez voir cette toile au chateau de Chantilly, près de Paris.</p>
-                <h6>Nicolas Poussin, Thésée retrouve l’épée de son père, huile sur toile, vers 1638, 98x134, musée Condé, Chantilly</h6>
+             
+                <p> Around 1638, Theseus found his father’s sword, by Nicolas Poussin, oil on canvas, conserved at Condé Museum in Chantilly, in France. As much as the character it is the monumental setting that has interested the painter.</p>
+      
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/h5.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/h5.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="rose">"Thésée combattant le minotaure" <br>de Étienne-Jules Ramey</h2>
-                <p> Il n'y a pas que les peintres qui s'intéressent à l'histoire de Thésée. Vous pourrez admirer cette statue en marbre, réalisée en 1826, dans le jardin des Tuileries, à côté du Louvres, à Paris.</p>
-                <h6>Étienne-Jules Ramey (1796–1852), Thésée combattant le minotaure. Marbre, 1826 ; Jardins des Tuileries, Paris</h6>
+        
+                <p> 1826. Theseus fighting against the Minotaur, sculpture by Etienne-Jules Ramey, 1826, conserved in the Tuileries Garden in Paris in France. Theseus is represented as a warrior triumphing over a slaughtered monster. </p>
+
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/h6.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/h6.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="rose">"La Chute d'Icare" <br>de Rubens</h2>
-                <p> L'histoire de ce pauvre Icare a également inspiré bien des artistes. Rubens, en 1636, montre le malheureux jeune homme en train de tomber, sous le regard désespéré et impuissant de son père.</p>
-                <h6>Rubens, La chute d'Icare, 1636</h6>
+               
+                <p> 1636, Rubens : « Icarus’s fall », conserved at the Royal Museum of Fine Arts in Belgium. The scene is all the more tragic because Daedalus and Icarus are on the same level and the father cannot do anything to save his son.</p>
+             
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/h7.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/h7.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="rose">"Icare" <br>de Henri Matisse</h2>
-                <p> Au 20ème siècle, les artistes prennent davantage de libertés avec l'histoire. Matisse, en 1952, présente un Icare qui semble nager au milieu des étoiles, comme s'il ne devait jamais tomber.</p>
-                <h6>Henri Matisse, Planche au pochoir d'après les gouaches et sur les découpages, 1952</h6>
+          
+                <p> 1943. « Icarus’s fall » by Henri Matisse, belongs to a particular collection. There, it is a cosmic representation of Icarus as a poetic figure who wanted to touch the stars. </p>
+          
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/h8.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/h8.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="rose">"Le minotaure <br>portant un cheval" <br>de Pablo Picasso</h2>
-                <p> Quand il représente le minotaure en 1937, Pablo Picasso s'intéresse surtout à la représentation de la violence et de la guerre. </p>
-                <h6>Pablo Picasso, Le minotaure portant un cheval, 1937</h6>
+         
+                <p> 1937. « The Minotaur carrying a horse » by Pablo Picasso. For the artist, the Minotaur represents the uncontrollable violence. Picasso develops the figure of the horse in other paintings, and more particularly in one of his greatest masterpieces: ”Guernica” </p>
+            
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/h9.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/h9.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="rose">"Thésée et le Minotaure " <br>de Silvio Amadio </h2>
-                <p> Dès le début du cinéma, les artistes ont voulu représenter les anciennes histoires grecques ou latines. C'est un genre de films qu'on appelle le "Peplum". "Thésée et le minotaure" a été tourné en Italie en 1960.</p>
-                <h6>Thésée et le Minotaure (Teseo contro il minotauro), peplum italien de Silvio Amadio, 1960</h6>
+                
+                <p> 1960. Theseus and the Minotaur (Teseo contro il minotauro), Italian peplum by Silvio Amadio. The story of Theseus has certainly interested the cinema. Silvio Amadio’s film, alas, is no longer well-known.</p>
+               
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/h10.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/h10.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="rose">"World of Warcraft" <br>Blizzard </h2>
-                <p> Les jeux vidéo ont eux aussi puisé dans les anciennes histoires grecques, parfois de façon très libre. En 2005, les Taurens, qui semblent être les descendants du minotaure, font partie des personnages jouables dans le jeu vidéo "World of Warcraft".</p>
-                <h6>Un tauren, minotaure dans le jeu vidéo World of Warcraft de Blizzard, 2005</h6>
+             
+                <p> 2005. Screenshot of a tauren in the video game « World of Warcraft » by Blizzard studio. Video games have also got nurtured with the ancient Greek imaginary.  Here, the taurens constitute one of the races players can play in the course of their adventures.</p>
+            
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/h11.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/h11.jpg" > </div>
           </div>
           </div>
       </div>
@@ -388,63 +382,63 @@ h6 {
     <div class="swiper-slide white-slide">
         <div class="bonus">
         <div class="colonnetextefull">
-            <h1 class="vert">Les machines volantes</h1>
-            <p> Nous avons tous rêvé de voler, comme un oiseau ou comme Icare en battant des ailes. Pendant des siècles, les hommes ont cru que c'était un rêve, à tout jamais impossible. Mais une longue série d'inventeurs et de savants, dans la lignée de Dédale, ont fini par le rendre possible.</p>
+            <h1 class="vert">The flying machines</h1>
+            <p> Like Icarus, man has always wanted to fly like birds. Of course, it was considered for a long time as an impossible dream.</p>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="vert">Les carnets <br>de Léonard de Vinci</h2>
-                <p> Au 16ème siècle, Léonard de Vinci dessine des plans de machines volantes. Celles-ci ne fonctionneront jamais car elles n’ont pas de moteur. Mais leurs plans ressemblent énormément aux avions que nous connaissons.</p>
+                <h2 class="vert">Leonardo da Vinci’s booknotes</h2>
+                <p>In the 16th century, Leonardo da Vinci drew plans of flying machines. They would never function as they had no engines. However, their plans enormously resemble the planes we know. </p>
                 <h6>©Wikipedia</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/s1.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/s1.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="vert">Les Mongolfières</h2>
-                <p> La première machine volante a été construite par des français : les frères Montgolfier, Joseph et Etienne, au 18ème siècle. Ces brillants ingénieurs ont eu l’idée de remplir un ballon avec de l’air chaud, ce qui permet à une nacelle et à ses passagers de s’élever dans les airs. </p>
-                <h6>http://www.passion-histoire.net/n/www/viewtopic.php?f=72&p=346483 / http://www.ane-pie.fr/activitees_a_la_maison_d_hotes.php</h6>
+                <h2 class="vert">The Balloons</h2>
+                <p> The first flying machine was created by Frenchmen: the Montgolfier brothers, Joseph and Etienne, in the 18th century. Those brilliant engineers had the idea of filling a balloon with warm air, which enabled a basket with its passengers to rise up in the air.  </p>
+            
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/s2.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/s2.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="vert">L'aéroplane <br>de Clément Ader</h2>
-                <p> Le premier homme à faire décoller un véhicule plus lourd que l’air est Clément Ader, un ingénieur français. En 1890, il fait décoller le premier avion du monde, l’Eole, du nom du dieu du vent. Son appareil, à l’apparence de chauve souris, n’est pas maniable et sera par la suite abandonné.</p>
-                <h6>http://lesarchivesbleues.wordpress.com/2012/05/13/le-premier-avion-eole-de-clement-ader/</h6>
+                <h2 class="vert">The first airplanes (1/2)</h2>
+                <p> The first man to make a vehicle heavier than air take off was Clément Ader, a French engineer. In 1890, he launched the first plane in the world, Eole, from the name of the god of wind. His machine had the appearance of a bat, and was not easy to handle and so was abandoned later on. </p>
+                
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/s3.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/s3.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="vert">L'aéroplane <br>des frères Wright</h2>
-                <p> Orville et Wilbur Wright, deux américains, mettent au point le premier aéroplane : contrairement à l’avion d’Ader, il est possible de tourner et de manoeuvrer l’appareil. En 1904, ils effectuent un premier vol en circuit fermé. En 1908, ils volent avec un passager. En 1909, le pilote Louis Blériot est le premier homme à traverser la Manche par les airs.</p>
+                <h2 class="vert">The first airplanes (2/2)</h2>
+                <p> Orville and Wilbur, two Americans, perfected the first airplane: contrary to Ader’s plane, it was possible to turn and maneuver the plane. In 1904, they carried out the first flight in close circuit. In 1908, the pilot Louis Bleriot was the first man to cross the English Channel through the air.</p>
                 <h6>©Wikipedia</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/s4.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/s4.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="vert">L’aviation militaire</h2>
-                <p> Les avions se perfectionnent lors de la première guerre mondiale (1914-1918). Ils sont d’abord utilisés pour espionner les ennemis, puis ils s’arment. C’est l’époque des “as”. Contrairement à la guerre des tranchées, les combats aériens sont vus comme chevaleresques. Durant la deuxième guerre mondiale (1939 - 1945), l’aviation jouera un rôle prépondérant et s'améliorera encore.</p>
+                <h2 class="vert">Military aviation</h2>
+                <p> Planes got perfected during the First World War (1914-1918). They were first used to spy enemies, and then they got armed. It was the epoch of the “Aces” who competed of virtuosity. During the Second World War (1939-1945), aviation would play a more preponderant role and would be even more perfected. </p>
                 <h6>©Wikipedia</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/s5.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/s5.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="vert">Les avions à réaction</h2>
-                <p> Après la deuxième guerre mondiale, les avions civils se développent : pour transporter des marchandises, d’abord, puis, de plus en plus, des passagers. En 1952, le premier avion à réaction est mis en marche : sa vitesse atteint alors 800 km/h. Le Concorde, à la fin des années 60, sera le premier avion à dépasser le mur du son.</p>
-                <h6>http://www.answers.com/topic/concorde-large-image</h6>
+                <h2 class="vert">Jet aircrafts</h2>
+                <p> After the Second World War, civil aviation developed: first for the transportation of merchandise, then, more and more, for the one of passengers. In 1952 the first jet was displayed: its speed reached 800km/h. The Concorde, at the end of the 60s, would be the first civil jet to exceed the wall sound. </p>
+                
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/s6.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/s6.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="vert">Les fusées <br>et les satellites</h2>
-                <p> Mais l’homme ne s’arrête pas là : comme Icare il cherche toujours à aller plus haut. En 1957, les russes lancent le premier satellite habité par un être vivant : le Sputnik. En 1969, l’américain Neil Amstrong est le premier homme à marcher sur la Lune. Depuis, des sondes et des robots ont été envoyés vers toutes les planètes du système solaire... en attendant d’aller encore plus loin ?</p>
+                <h2 class="vert">Moon rocket</h2>
+                <p> However man does not stop there: like Icarus he seeks to go always higher. In 1957, the Russians launched the first satellite inhabited by a living creature: the Sputnik. In 1969, the American Neil Armstrong was the first man to walk on the moon. From then on, leads and robots have been sent to all the solar system planets… while waiting to go even farther? </p>
                 <h6>©Wikipedia</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/s7.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/s7.jpg" > </div>
           </div>
           </div>
       </div>
@@ -455,63 +449,76 @@ h6 {
     <div class="swiper-slide white-slide">
         <div class="bonus">
         <div class="colonnetextefull">
-            <h1  class="orange">La démocratie</h1>
-            <p>La démocratie athénienne est considérée comme une des plus anciennes du monde. Les citoyens organisent des assemblées et votent à la main levée. Ils sont tirés au sort. Mais cette démocratie est très imparfaite : ni les femmes, ni bien sûr les esclaves n’ont le droit de vote. La planche suivante, tirée de la bande dessinée "L'enfant grec" de Jacques Martin, représente les débats publics à Athènes.</p>
+            <h1  class="orange">Democracy</h1>
+           
             <div class="clear">
             <div class="texteslide">
-                <h2 class="orange">La démocratie Athénienne</h2>
-                <p> Au 16ème siècle, Léonard de Vinci dessine des plans de machines volantes. Celles-ci ne fonctionneront jamais car elles n’ont pas de moteur. Mais leurs plans ressemblent énormément aux avions que nous connaissons. Ici, une réprésentation de la Bande Dessinée "L'enfant Grec", de Jaques Martin</p>
-                <h6>Scan d’une case d’Alix “L’enfant grec”</h6>
+                <h2 class="orange">The Athenian democracy</h2>
+                <p> The Athenian democracy is considered as the most ancient in the world. The citizens organized meetings and voted in a show of hands. They were selected by drawing lots. However this democracy is very imperfect: neither women nor slaves, of course, could vote.</p>
+                <h6>Scan of a square of Alix “The Greek Child” + caption</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/ec1.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/ec1.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="orange">La république romaine</h2>
-                <p> La république romaine n’est pas vraiment plus juste : tout le pouvoir est entre les mains du Sénat et il est très difficile pour les hommes du peuple de devenir sénateurs. En -31, l’empire remplace la république. Ici, une représentation du Sénat dans le film "La chute de l'empire romain"</p>
-                <h6>Stanley Kubrick, Spartacus</h6>
+                <h2 class="orange">The Roman republic</h2>
+                <p> Born in -509, the Roman republic is not really fairer: all the power was in the hands of the Senate and it was very difficult for ordinary men from the people to become senators. In -31 the empire replaced the republic.</p>
+                <h6>Screenshot of Spartacus by Kubrick + caption</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/ec2.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/ec2.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="orange">La démocratie <br>parlementaire anglaise</h2>
-                <p> Au 17ème siècle, en Angleterre, le parlement prend le pouvoir. C’est une révolution sans violence. Il y a toujours un roi ou une reine sur le trône mais il ou elle ne peut pas déclarer la guerre sans l’accord du parlement. C’est le parlement également qui décide des lois et qui garantit que les libertés sont respectées. Ici, le palais de Westminster, à Londres, où siège le parlement britannique (Source Wikipédia)</p>
-                <h6>Le palais de Westminster où siège le parlement du Royaume Uni. ©Wikipédia</h6>
+                <h2 class="orange">The English Parliamentarian democracy</h2>
+                <p> In the 17th century, in England, the Parliament took the power. It was a non-violent revolution. A king or a queen is still on the throne but he or she cannot declare war without the Parliament’s consent. It is also the Parliament that decides on laws and guarantees the respect of freedoms.   </p>
+                <h6>Westminster Palace, the headquarters of the United Kingdom’s Parliament. Source: Wikipedia </h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/ec3.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/ec3.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="orange">La révolution américaine</h2>
-                <p> Au 18ème siècle, l’Amérique était une colonie dominée par l’Angleterre. Après la guerre d’indépendante, les Etats Unis d’Amérique sont fondés : c’est aujourd’hui la république la plus ancienne du Monde avec un président élu par le peuple. Le premier s’appelle Georges Washington.</p>
-                <h6>Portrait de George Washington par Gilbert Stuart Williamstown, 1846. ©Wikipedia</h6>
+                <h2 class="orange">the American Parliamentarian democracy </h2>
+                <p>In the 18th century America was a colony dominated by England. After the Independence War, the United States was founded: today it is the oldest republic in the world with a president elected by the people. The first president of the United States was Georges Washington.</p>
+                <h6>Portrait of George Washington by Gilbert Stuart Williamstown, 1846, source : Wikipedia</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/ec4.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/ec4.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="orange">La révolution française</h2>
-                <p> En 1789, la révolution française est d’abord dirigée contre la noblesse plus que contre le roi. Mais celui-ci trahit le peuple et est finalement exécuté. La république est proclamée en 1792. Sa devise : “Liberté, égalité, fraternité”. Ici, le "Serment du jeu de paume", David, 1790 </p>
-                <h6>Serment du jeu de paume, David, 1790</h6>
+                <h2 class="orange">The French revolution </h2>
+                <p> In 1789, the French revolution was first directed against the nobility more than against the king. But the latter betrayed the people and was finally executed. The republic was declared in 1792. Its motto: ““Liberté, égalité, fraternité” (: Liberty, equality, brotherhood) </p>
+                <h6>Oath of palm game, David, 1790</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/ec5.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/ec5.jpg" > </div>
           </div>
             <div class="clear">
             <div class="texteslide">
-                <h2 class="orange">Le vote des femmes <br>(différents pays)</h2>
-                <p>Bien longtemps, les femmes n’ont pas eu les mêmes droits que les hommes. Le code Napoléon les traite en éternelle mineure qui passent de la tutelle du père à celle du mari. Le premier pays à leur donner le droit de vote est la Nouvelle Zélande en 1893. Les autres pays suivent : Le Royaume Uni, la Russie, le Canada en 1918, les Etats-Unis en 1920... pour la France il faudra attendre 1945 ! Ici, une manifestation des sufragettes américaines en 1916.</p>
-                <h6>Manifestation pour le droit de vote des femmes, Washington, 1916. ©Wikipedia</h6>
+                <h2 class="orange">The women’s vote</h2>
+                <p>For a very long time, women did not have the same rights as men. The Napoleon code treated them as eternal minors who pass from the father’s guardianship to the husband’s. The first country to grant them the voting right was New Zealand in 1893. Then followed the other countries: The United Kingdom, Russia and Canada in 1918, The United States in 1920 ... and France, only in 1945! </p>
+                <h6>Manifestation for the women’s voting right, Washington, 1916. Source : Wikipedia</h6>
               </div>
-            <div class="imageslide"> <img src="../fr/bonus/ec6.jpg" > </div>
+            <div class="imageslide"> <img src="bonus/ec6.jpg" > </div>
           </div>
           </div>
       </div>
       </div>
   </div>
   </div>
-<script src="../fr/js/jquery-1.10.1.min.js"></script> 
-<script src="../fr/js/idangerous.swiper-2.1.min.js"></script> 
+   <div class="popup chapitres">
+        <div class="croixfermeture chapitresfermer"><img src="img/croix.png"  alt=""/></div>
+    <h2>Contents</h2>
+       <div class="imageschapitres">  <a href="chapitre1.html"> <img src="resources/menu1.jpg" class=""  alt=""/> </a></div>
+          <div class="imageschapitres"> <a href="chapitre2.html"> <img src="resources/menu2.jpg"  alt=""/> </a></div>
+           <div class="imageschapitres"><a href="chapitre3.html"> <img src="resources/menu3.jpg"  alt=""/> </a></div>
+         <div class="imageschapitres">  <a href="chapitre4.html"> <img src="resources/menu4.jpg"  alt=""/> </a></div>
+          <div class="imageschapitres"> <a href="chapitre5.html"> <img src="resources/menu5.jpg"  alt=""/> </a></div>
+           <div class="imageschapitres"><a href="chapitre6.html"> <img src="resources/menu6.jpg"  alt=""/> </a></div>
+            <div class="imageschapitres"> <a href="coinmalin.html"> <img src="resources/menu7.jpg"  alt=""/> </a></div>
+        
+        </div>
+</div>
+<script src="js/jquery-1.10.1.min.js"></script> 
+<script src="js/idangerous.swiper-2.1.min.js"></script> 
 <script>
   var tabsSwiper = new Swiper('.swiper-container',{
    
@@ -567,6 +574,7 @@ h6 {
           $(".chapitres").toggleClass("visible");
 
           });
+  
   </script>
 </body>
 </html>
