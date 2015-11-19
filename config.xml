@@ -18,6 +18,6 @@
     </author>
 	<preference name="orientation" value="landscape" />
 	<icon src="icon.png" />
-	<gap:splash src="splash.png" gap:platform="ios" />
+	<splash src="splash.png" platform="ios" width="1024" height="768" />
 
 </widget>
