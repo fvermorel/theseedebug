@@ -448,6 +448,41 @@ Qui la délivrera de cette malédiction ?</a></p>
         
         </div>
        
+       <div class="popup references">
+        <div class="croixfermeture referencesfermer"><img src="fr/img/croix.png"  alt=""/></div>
+        <h2>Bibliographie</h2>
+       <div>
+       <div class="genre titre">Littérature</div>
+       <div class="biblio">“Hippolyte” d’Euripide<br>
+“Phèdre” de Racine<br>
+“La guerre de Troie n’aura pas lieu”, de Jean Giraudoux
+</div>
+       </div>
+       </div>
+       
+         <div class="popup equipe">
+        <div class="croixfermeture equipefermer"><img src="fr/img/croix.png"  alt=""/></div>
+        <h2>Oracle, c'est quoi ?</h2>
+       <div>
+       <div class="genre titre">&nbsp;</div>
+       <div class="biblio">
+       
+       <p class="rose" >
+       Oracle Edition est née du désir de proposer les histoires anciennes, les légendes populaires et les mythes fondateurs sous la forme de livres numériques illustrés, animés et sonorisés.
+       </p>
+       <p>Nous croyons que ces histoires sont les plus belles et les plus intelligentes qui ont jamais été racontées…  que ce sont les plus belles parce que ce sont les plus intelligentes ! Sources d’inspiration inépuisables pour les artistes au fil des siècles, elles ont structuré notre civilisation.
+       </p>
+       <p class="rose" style="text-align:center;" ><em><strong>« Ce ne sont pas juste des histoires, ce sont des univers. »</strong></em></p>
+       <p>Quand on prétend qu’on va instruire les enfants en les amusant on court un double risque : celui d’être ennuyeux et de ne pas amuser, celui d’être superficiel et de ne pas instruire. Nous espérons éviter ce double écueil : les légendes et les mythes sont par définition des sources d’apprentissage. C’est donc logiquement que nous les traitons de façon pédagogique.</p>
+       <p>
+
+La réalisation de ces livres numériques a nécessité de rassembler une équipe pluridisciplinaire : chef de projet / éditeur, illustrateurs, graphiste, animateur, développeurs, acteurs...
+       </p>
+  
+     <a href="http://oracle-editions.com/equipe-oracle/">  <img src="fr/img/btn-equipe.png" class="boutonequipe"  alt=""/> </a>
+       </div>
+       </div>
+       </div>
         
         <script type="text/javascript" src="fr/cordova.js"></script>
         <script type="text/javascript" src="fr/index.js"></script>
@@ -463,6 +498,31 @@ Qui la délivrera de cette malédiction ?</a></p>
 		   $(".collectionfermer").click(function (){
 
           $(".collection").toggleClass("visible");
+
+          });
+		  
+		  
+			  $("#oracle").click(function (){
+
+          $(".equipe").toggleClass("visible");
+
+          });
+		  
+		   $(".equipefermer").click(function (){
+
+          $(".equipe").toggleClass("visible");
+
+          });
+		  
+		    $("#references").click(function (){
+
+          $(".references").toggleClass("visible");
+
+          });
+		  
+		   $(".referencesfermer").click(function (){
+
+          $(".references").toggleClass("visible");
 
           });
 		  

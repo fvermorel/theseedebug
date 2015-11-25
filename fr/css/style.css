@@ -856,3 +856,24 @@ h3 a{
 a {
 	text-decoration:none;
 }
+.genre {
+	width:25%;
+	float:left;
+	color: #f2569d;
+	font-size:1.3em;
+	font-family:verdana;
+	
+}
+.biblio {
+	width:70%;
+	float:left;
+	font-family:verdana;
+	    color: #3A2719;
+}
+.rose {
+color:#f2569d!important;	
+}
+.boutonequipe {
+width: 30%;	
+margin-top:10%;
+}

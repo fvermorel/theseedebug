@@ -49,8 +49,12 @@
     </center>
     </div>
     <div id="chargement"></div>
+     <audio id="intro" preload="auto" autoplay="true" type="audio/mpeg">
+              <source src="voix/intro.mp3"  type="audio/mpeg" autoplay="true" >
+            </audio>
     <div class="next"> <img id="next0" src="img/next.png" alt="menu" class="arrow-right" /> </div>
     <div class="prev"> <A href="../index.html"><img id="prev" src="img/prev-chap.png" alt="menu" /></A></div>
+    
     </div>
     
     
@@ -241,8 +245,11 @@ $("#menu").click(function (){
 		$('#voix1').playMedia();
 		
 		
+		
+		
 $("#chargement").addClass("pause");
-		   	   
+		   	   $('#intro')[0].pause();
+    				$('#intro')[0].currentTime = 0;
 	  
 	  	$("#nuage1").removeClass("pause");
 				$("#nuage2").removeClass("pause");
@@ -398,7 +405,8 @@ $('#prev1').click(function(){
 					 $('#bruit1')[0].pause();
     				$('#bruit1')[0].currentTime = 0;
 					
-						$("#chargement").css("animation-play-state", "running")
+						$("#chargement").css("animation-play-state", "running");
+						$("#intro").playMedia();
 	
 
 	
