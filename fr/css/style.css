@@ -52,6 +52,7 @@ body {
 	 z-index:20;
 	 padding:5%;
 	 visibility:hidden;
+	 overflow:scroll;
 	
 }
 .croixfermeture {
@@ -849,7 +850,7 @@ h3 a{
 	
 }
 .overflow {
-	overflow:scroll;
+	
 	height:100%;
 	
 }
