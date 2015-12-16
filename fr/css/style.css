@@ -853,7 +853,7 @@ h3 a{
 .overflow {
 	overflow-y: scroll;
     overflow-x: hidden;
-	height:100%;
+	height:90%;
 	
 }
 a {
@@ -870,14 +870,28 @@ a {
 }
 .biblio {
 	width:70%;
-	float:left;
+	    height: 75%;
+    position: absolute;
+    left: 25%;
 	font-family:verdana;
 	    color: #3A2719;
+		overflow:scroll;
 }
 .rose {
 color:#f2569d!important;	
 }
 .boutonequipe {
 width: 30%;	
-margin-top:10%;
+
+}
+.left {
+	float:left;
+	
+}
+.bibliographie {
+
+	font-family:verdana;
+	    color: #3A2719;
+		clear:both;
+		padding-top:20px;
 }
