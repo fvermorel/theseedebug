@@ -19,5 +19,6 @@
 	<preference name="orientation" value="landscape" />
 	<icon src="icon.png" />
 	<splash src="splash.png" platform="ios" width="1024" height="768" />
+	<preference name="splash-screen-duration" value="5000"/> 
 
 </widget>

@@ -96,7 +96,7 @@ body {
 #chargement{
     background-image: url("../img/chargement07.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 110%;
     position: absolute;
     height: 65%;
     width: 50%;
@@ -373,7 +373,7 @@ canvas {
     padding: 9% 10% 10% 8%;
     position: absolute;
     width: 16%;
-    z-index: 16;
+    z-index: 16!important;
     font-family: "Verdana";
     text-align: center;
 }
@@ -393,7 +393,7 @@ canvas {
     padding: 9% 10% 10% 8%;
     position: absolute;
     width: 16%;
-    z-index: 16;
+    z-index: 16!important;
     font-family: "Verdana";
     text-align: center;
 }
@@ -414,7 +414,7 @@ canvas {
     padding: 9% 10% 10% 8%;
     position: absolute;
     width: 16%;
-    z-index: 16;
+    z-index: 16!important;
 }
 #bulle4BIG {
 /*	background-image: url("../img/bulle1BIG.png");*/	
@@ -431,7 +431,7 @@ canvas {
     padding: 9% 10% 10% 8%;
     position: absolute;
     width: 16%;
-    z-index: 16;
+     z-index: 16!important;
     font-family: "Verdana";
     text-align: center;
 }
@@ -450,7 +450,7 @@ canvas {
     padding: 9% 10% 10% 8%;
     position: absolute;
     width: 16%;
-    z-index: 16;
+     z-index: 16!important;
     font-family: "Verdana";
     text-align: center;
 }
@@ -469,7 +469,7 @@ canvas {
     padding: 9% 10% 10% 8%;
     position: absolute;
     width: 16%;
-    z-index: 16;
+    z-index: 16!important;
     font-family: "Verdana";
     text-align: center;
 }
