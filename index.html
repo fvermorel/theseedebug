@@ -8,6 +8,7 @@
 		 <script type="text/javascript" src="fr/js/book.js"></script> 	
  
       <!-- Plugin jQuery pour animations basées sur courbe de Bézier (ex : sinusoïde) -->
+        <script type="text/javascript" src="fr/cordova-2.5.0.js"></script>
 <script src="fr/js/jquery.path.js"></script>
 <script src="fr/js/jquery-ui.min.js"></script>
 <!-- API CCom Interactive -->
@@ -298,7 +299,7 @@ background-image: url(img/btn-ouvrir.png);
         </style>
         <script>
 $(document).ready(function() {
-    $.ajax({
+  /*  $.ajax({
  type: "GET"
 , url: 'http://www.oracle-editions.com/json/autreslivres.json'
 , dataType: "text json"
@@ -313,7 +314,29 @@ livres.push('<div><img src="' + livre + '" class="livre"></div>');
 $('#autreslivres').append(livres.join(''));
 }
 
-})
+})*/
+
+		  $("#facebook").on("click"), function() {
+    if (typeof navigator !== "undefined" && navigator.app) {
+        // Mobile device.
+        navigator.app.loadUrl('https://www.facebook.com/Oracle-Éditions-490954901072101/?ref=hl', {openExternal: true});
+    } else {
+        // Possible web browser
+        window.open("https://www.facebook.com/pages/Oracle-Éditions/490954901072101", "_blank");
+    }
+};
+
+$("#twitter").on("click"), function() {
+    if (typeof navigator !== "undefined" && navigator.app) {
+        // Mobile device.
+        navigator.app.loadUrl('https://twitter.com/OracleEditions', {openExternal: true});
+    } else {
+        // Possible web browser
+        window.open("https://twitter.com/OracleEditions", "_blank");
+    }
+};
+
+
 });
  
 		</script>
@@ -358,7 +381,7 @@ $('#autreslivres').append(livres.join(''));
        
        
          <img src="fr/img/fb.png"  alt=""/></a> 
-        <a href="https://twitter.com/OracleEditions" target="_blank" id="twitter">  <img src="fr/img/twitter.png"  alt=""/></a> </div> 
+        <a href="" target="_blank" id="twitter">  <img src="fr/img/twitter.png"  alt=""/></a> </div> 
         <!--<div id="autreslivres">
         
         <div id="titreCollec">Dans la même collection</div>
@@ -529,12 +552,12 @@ Friedrich Nietzsche, <em>“La naissance de la tragédie”</em> <br>
 La réalisation de ces livres numériques a nécessité de rassembler une équipe pluridisciplinaire : chef de projet / éditeur, illustrateurs, graphiste, animateur, développeurs, acteurs...
        </p>
   <p>
-     <a href="" id="equipe">  <img src="fr/img/btn-equipe.png" class="boutonequipe"  alt=""/> </a></p>
+     <a onclick="window.open('http://www.facebook.com', '_system');">  <img src="fr/img/btn-equipe.png" class="boutonequipe"  alt=""/> </a></p>
        </div>
        </div>
        </div>
         
-        <script type="text/javascript" src="fr/cordova.js"></script>
+      
         <script type="text/javascript" src="fr/index.js"></script>
         <script type="text/javascript">
 		
@@ -593,35 +616,7 @@ La réalisation de ces livres numériques a nécessité de rassembler une équip
           });
 		  
 		  
-		  $("#facebook").on("click"), function() {
-    if (typeof navigator !== "undefined" && navigator.app) {
-        // Mobile device.
-        navigator.app.loadUrl('https://www.facebook.com/pages/Oracle-%C3%89ditions/490954901072101', {openExternal: true});
-    } else {
-        // Possible web browser
-        window.open("https://www.facebook.com/pages/Oracle-%C3%89ditions/490954901072101", "_blank");
-    }
-};
 
-$("#twitter").on("click"), function() {
-    if (typeof navigator !== "undefined" && navigator.app) {
-        // Mobile device.
-        navigator.app.loadUrl('https://twitter.com/OracleEditions', {openExternal: true});
-    } else {
-        // Possible web browser
-        window.open("https://twitter.com/OracleEditions", "_blank");
-    }
-};
-
-$("#twitter").on("click"), function() {
-    if (typeof navigator !== "undefined" && navigator.app) {
-        // Mobile device.
-        navigator.app.loadUrl('http://oracle-editions.com/equipe-oracle/	', {openExternal: true});
-    } else {
-        // Possible web browser
-        window.open("http://oracle-editions.com/equipe-oracle/	", "_blank");
-    }
-};
 	
 	
 	
