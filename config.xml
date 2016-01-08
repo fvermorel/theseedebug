@@ -20,6 +20,6 @@
 	<icon src="icon.png" />
 	<splash src="splash.png" platform="ios" width="1024" height="768" />
 	<preference name="splash-screen-duration" value="5000"/> 
-	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
+	<plugin name="org.li8.inappbrowser" spec="0.1" source="pgb" />
 
 </widget>

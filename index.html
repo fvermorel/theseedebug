@@ -341,7 +341,7 @@ background-image: url(img/btn-ouvrir.png);
        
        
          <img src="fr/img/fb.png"  alt=""/></a> 
-        <a href="" target="_blank" id="twitter">  <img src="fr/img/twitter.png"  alt=""/></a> </div> 
+        <a href="#" onclick="window.open('http://www.google.com', '_system');">>  <img src="fr/img/twitter.png"  alt=""/></a> </div> 
         <!--<div id="autreslivres">
         
         <div id="titreCollec">Dans la même collection</div>
@@ -509,11 +509,11 @@ Friedrich Nietzsche, <em>“La naissance de la tragédie”</em> <br>
        <p>Quand on prétend qu’on va instruire les enfants en les amusant on court un double risque : celui d’être ennuyeux et de ne pas amuser, celui d’être superficiel et de ne pas instruire. Nous espérons éviter ce double écueil : les légendes et les mythes sont par définition des sources d’apprentissage. C’est donc logiquement que nous les traitons de façon pédagogique.</p>
        <p>
 
-La réalisation de ces livres numériques a nécessité de rassembler une équipe pluridisciplinaire : chef de projet / éditeur, illustrateurs, graphiste, animateur, développeurs, acteurs... (test)
+La réalisation de ces livres numériques a nécessité de rassembler une équipe pluridisciplinaire : chef de projet / éditeur, illustrateurs, graphiste, animateur, développeurs, acteurs... 
        </p>
   <p>
   
-  <a href="#" onclick='cordova.InAppBrowser.open("http://www.cavallo.de/langzuegel","_system","location=yes");return false;'>
+  <a href="http://www.oracle-edition.com" target="_blank" >
       <img src="fr/img/btn-equipe.png" class="boutonequipe"  alt=""/></a> </p>
        </div>
        </div>
@@ -598,7 +598,7 @@ $('#autreslivres').append(livres.join(''));
 
 })*/
 
-$("#equipe").on("click"), function() {
+$("#facebook").on("click"), function() {
     if (typeof navigator !== "undefined" && navigator.app) {
         // Mobile device.
         navigator.app.loadUrl('http://www.google.com/', {openExternal: true});
