@@ -298,47 +298,7 @@ background-image: url(img/btn-ouvrir.png);
 
         </style>
         <script>
-$(document).ready(function() {
-  /*  $.ajax({
- type: "GET"
-, url: 'http://www.oracle-editions.com/json/autreslivres.json'
-, dataType: "text json"
-, success: function(data, status) {
-var livres = [];
-$.each(data, function(nom, collection) {
-livres.push('<div id="titreCollec">' + nom + '</div>');
-$.each(collection, function(col, livre) {
-livres.push('<div><img src="' + livre + '" class="livre"></div>');
-});
-});
-$('#autreslivres').append(livres.join(''));
-}
 
-})*/
-
-		  $("#facebook").on("click"), function() {
-    if (typeof navigator !== "undefined" && navigator.app) {
-        // Mobile device.
-        navigator.app.loadUrl('https://www.facebook.com/Oracle-Éditions-490954901072101/?ref=hl', {openExternal: true});
-    } else {
-        // Possible web browser
-        window.open("https://www.facebook.com/pages/Oracle-Éditions/490954901072101", "_blank");
-    }
-};
-
-$("#twitter").on("click"), function() {
-    if (typeof navigator !== "undefined" && navigator.app) {
-        // Mobile device.
-        navigator.app.loadUrl('https://twitter.com/OracleEditions', {openExternal: true});
-    } else {
-        // Possible web browser
-        window.open("https://twitter.com/OracleEditions", "_blank");
-    }
-};
-
-
-});
- 
 		</script>
         
         <title>Th&eacute;s&eacute;e</title>
@@ -549,10 +509,10 @@ Friedrich Nietzsche, <em>“La naissance de la tragédie”</em> <br>
        <p>Quand on prétend qu’on va instruire les enfants en les amusant on court un double risque : celui d’être ennuyeux et de ne pas amuser, celui d’être superficiel et de ne pas instruire. Nous espérons éviter ce double écueil : les légendes et les mythes sont par définition des sources d’apprentissage. C’est donc logiquement que nous les traitons de façon pédagogique.</p>
        <p>
 
-La réalisation de ces livres numériques a nécessité de rassembler une équipe pluridisciplinaire : chef de projet / éditeur, illustrateurs, graphiste, animateur, développeurs, acteurs...
+La réalisation de ces livres numériques a nécessité de rassembler une équipe pluridisciplinaire : chef de projet / éditeur, illustrateurs, graphiste, animateur, développeurs, acteurs... (test)
        </p>
   <p>
-     <a onclick="window.open('http://www.facebook.com', '_system');">  <img src="fr/img/btn-equipe.png" class="boutonequipe"  alt=""/> </a></p>
+      <a href="#" id="equipe" > <img src="fr/img/btn-equipe.png" class="boutonequipe"  alt=""/></a> </p>
        </div>
        </div>
        </div>
@@ -618,7 +578,36 @@ La réalisation de ces livres numériques a nécessité de rassembler une équip
 		  
 
 	
-	
+	$(document).ready(function() {
+  /*  $.ajax({
+ type: "GET"
+, url: 'http://www.oracle-editions.com/json/autreslivres.json'
+, dataType: "text json"
+, success: function(data, status) {
+var livres = [];
+$.each(data, function(nom, collection) {
+livres.push('<div id="titreCollec">' + nom + '</div>');
+$.each(collection, function(col, livre) {
+livres.push('<div><img src="' + livre + '" class="livre"></div>');
+});
+});
+$('#autreslivres').append(livres.join(''));
+}
+
+})*/
+
+$("#equipe").on("click"), function() {
+    if (typeof navigator !== "undefined" && navigator.app) {
+        // Mobile device.
+        navigator.app.loadUrl('http://www.google.com/', {openExternal: true});
+    } else {
+        // Possible web browser
+        window.open("http://www.google.com/", "_blank");
+    };
+
+};
+});
+ 
 	
 	
             </script>
