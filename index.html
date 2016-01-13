@@ -513,7 +513,7 @@ La réalisation de ces livres numériques a nécessité de rassembler une équip
        </p>
   <p>
   
-  <a href="http://www.oracle-edition.com" target="_blank" >
+  <a href="" onclick="cordova.InAppBrowser.open('http://apache.org', '_system', 'location=yes')" target="_system" >
       <img src="fr/img/btn-equipe.png" class="boutonequipe"  alt=""/></a> </p>
        </div>
        </div>
@@ -580,36 +580,7 @@ La réalisation de ces livres numériques a nécessité de rassembler une équip
 		  
 
 	
-	$(document).ready(function() {
-  /*  $.ajax({
- type: "GET"
-, url: 'http://www.oracle-editions.com/json/autreslivres.json'
-, dataType: "text json"
-, success: function(data, status) {
-var livres = [];
-$.each(data, function(nom, collection) {
-livres.push('<div id="titreCollec">' + nom + '</div>');
-$.each(collection, function(col, livre) {
-livres.push('<div><img src="' + livre + '" class="livre"></div>');
-});
-});
-$('#autreslivres').append(livres.join(''));
-}
 
-})*/
-
-$("#facebook").on("click"), function() {
-    if (typeof navigator !== "undefined" && navigator.app) {
-        // Mobile device.
-        navigator.app.loadUrl('http://www.google.com/', {openExternal: true});
-    } else {
-        // Possible web browser
-        window.open("http://www.google.com/", "_blank");
-    };
-
-};
-});
- 
 	
 	
             </script>
