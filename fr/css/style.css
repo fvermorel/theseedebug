@@ -120,6 +120,33 @@ body {
 100% {-webkit-transform:rotate(360deg); transform:rotate(360deg);transform-origin: 50% 50%;}
 }
 
+#chargement2{
+    background-image: url("../img/chargement07.png");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    position: absolute;
+    height: 65%;
+    width: 50%;
+    z-index: 16;
+	top:21%;
+	left:25%;
+    -webkit-animation: chargement 3s linear 2;
+	-moz-animation: chargement 3s linear 2;
+	animation: chargement 3s linear 2;
+}
+@-webkit-keyframes chargement {
+0% {-webkit-transform:rotate(0deg); transform:rotate(0deg); transform-origin: 50% 50%;}
+100% {-webkit-transform:rotate(360deg); transform:rotate(360deg);transform-origin: 50% 50%;}
+}
+ @-moz-keyframes chargement {
+0% {-webkit-transform:rotate(0deg); transform:rotate(0deg); transform-origin: 50% 50%;}
+100% {-webkit-transform:rotate(360deg); transform:rotate(360deg);transform-origin: 50% 50%;}
+}
+ @keyframes chargement {
+0% {-webkit-transform:rotate(0deg); transform:rotate(0deg); transform-origin: 50% 50%;}
+100% {-webkit-transform:rotate(360deg); transform:rotate(360deg);transform-origin: 50% 50%;}
+}
+
 
 #next0 {
 	
