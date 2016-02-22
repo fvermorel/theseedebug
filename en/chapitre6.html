@@ -186,11 +186,37 @@
         <div id="chouette4"></div>
            
            <div class="prev"> <img id="prev4" src="../fr/img/prev.png" alt="menu" class="arrow-left" /></div>
-        <div class="next"> <a href="coinmalin.html"><img id="next" src="../fr/img/next-chap.png" alt="menu" /></a> </div>
+        <div class="next"> <img id="next4" src="../fr/img/next.png" alt="menu" /></div>
       </div>
     </div>
     
     <!-- Fin page 26--> 
+    
+      
+    
+    
+      <div class="swiper-slide page27" data-hash="slide0">
+  <div id="text">
+  <div id="textechargement">
+    <center>
+        <br />
+        <br />
+        <br />
+        <br />
+        <font size="5em"  face="verdana">THE END</font><br />
+        <hr width="20%" size="1px" color="#FE2EC8">
+        Go to Pedagogical Appendix<br />
+    </center>
+    </div>
+    <div id="chargement2" class="pause"></div>
+     <div class="prev"> <img id="prev5" src="../fr/img/prev.png" alt="menu" /></div>
+    <div class="next"> <a href="coinmalin.html"><img id="next5" src="../fr/img/next-chap.png" alt="menu" class="arrow-right" /> </a></div>
+    </div>
+    
+    
+  </div>
+  
+  <!-- Fin page 27--> 
     
   </div>
   <div class="pagination"></div>
@@ -243,7 +269,7 @@ $("#chargement").addClass("pause");
 	
 });
  
-  	$('#next1').click(function(){
+  $('#next1').click(function(){
 		$( ".swiper-wrapper" ).animate({
   
     left: "-200%",
@@ -258,11 +284,17 @@ $("#chargement").addClass("pause");
 				$("#parchemin").addClass("pause");
 				$("#yeuxhomme").addClass("pause");
 				$("#yeuxgarcon").addClass("pause");
+				
+				
+				$("#nuage1").removeClass("pause");
+				$("#nuage2").removeClass("pause");
+				$("#nuage3").removeClass("pause");
 								
 					 $('#voix23')[0].pause();
     				$('#voix23')[0].currentTime = 0;
 					 $('#bruit1')[0].pause();
     				$('#bruit1')[0].currentTime = 0;
+					
 					
 		
 			$("#bruit2").playMedia();
@@ -344,6 +376,26 @@ $('#next3').click(function(){
 
 				$("#voix26").playMedia();
 		   
+		
+	
+});
+
+$('#next4').click(function(){
+	
+	$( ".swiper-wrapper" ).animate({
+  
+    left: "-500%",
+
+  }, 500, function() {
+    // Animation complete.
+  });
+		
+		$("#chargement2").removeClass("pause");
+		
+		   $('#voix26')[0].pause();
+    				$('#voix26')[0].currentTime = 0;
+					 $('#bruit4')[0].pause();
+    				$('#bruit4')[0].currentTime = 0;
 		
 	
 });
@@ -482,6 +534,28 @@ $('#prev4').click(function(){
 				$("#bruit3").playMedia();
 		
 				$("#voix25").playMedia();
+		   
+		
+
+});
+
+
+$('#prev5').click(function(){
+	
+	
+		$( ".swiper-wrapper" ).animate({
+  
+    left: "-400%",
+
+  }, 500, function() {
+    // Animation complete.
+  });
+				
+		$("#chargement2").addClass("pause");
+				
+				$("#bruit4").playMedia();
+		
+				$("#voix26").playMedia();
 		   
 		
 
