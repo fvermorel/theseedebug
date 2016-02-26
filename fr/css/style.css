@@ -841,7 +841,7 @@ background-color: #F2F2F2;
 }
 .presentationlivre  {
 	padding:3%;
-	height:14.5%;
+	height:23%;
 	font-family:verdana;
 }
 .bgrose {
@@ -921,4 +921,8 @@ width: 30%;
 	    color: #3A2719;
 		clear:both;
 		padding-top:20px;
+}
+.w70 {
+	width:70%;
+	
 }
