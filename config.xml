@@ -21,7 +21,7 @@
 	<splash src="splash.png" platform="ios" width="1024" height="768" />
 	<preference name="splash-screen-duration" value="5000"/>
 
-	
+	<plugin name="cordova-plugin-inappbrowser" spec="1.1.1" />
 
 
 </widget>
