@@ -222,7 +222,7 @@ background-image: url(img/btn-ouvrir.png);
   margin-left:auto!important;
   margin-right:auto!important;
   height: 768px;
-	
+	    position: relative!important;
 }
 
 #histoire {
@@ -293,7 +293,17 @@ background-image: url(img/btn-ouvrir.png);
 	 color: #f2569d;
 	  text-decoration: none;
 }
-
+.chapitrepalpite {
+	bottom:0;
+	right:0;
+	    height: 13.1%;
+    width: 10.5%;
+	position:absolute;
+	opacity:0.7;
+	
+	z-index:9;
+	
+}
         </style>
         <script>
 $(document).ready(function() {
@@ -346,14 +356,43 @@ $('#autreslivres').append(livres.join(''));
         <div id="reduire"><div id="plusMoins" class="plusMoins"></div></div>
         <div id="boiteBoutons">
         	<a href="index.html"> <img src="fr/img/drapeau-francais.png" id="anglais"  ></a>
-          <img src="fr/img/chouette-icon.png" id="oracle"  alt=""/> 
-          <img src="fr/img/icone-info.png" id="information" alt=""/> 
+           <img src="fr/img/chouette-icon.png" id="oracle"  alt=""/> 
+<!--          <img src="fr/img/icone-info.png" id="information" alt=""/> -->
           <img src="fr/img/references.png" alt="" id="references"/> </div> 
           
           
-          <div id="boiteBoutons2">
-       <a href="https://www.facebook.com/pages/Oracle-%C3%89ditions/490954901072101" target="_blank">	  <img src="fr/img/fb.png"  alt=""/></a> 
-        <a href="https://twitter.com/OracleEditions" target="_blank">  <img src="fr/img/twitter.png"  alt=""/></a> </div> 
+         <div id="boiteBoutons2">
+       <a href="#" onclick="cordova.InAppBrowser.open('https://www.facebook.com/Oracle-%C3%89ditions-490954901072101/', '_system');"> 
+       
+       
+         <img src="fr/img/fb.png"  alt=""/></a> 
+        <a href="#" onclick="cordova.InAppBrowser.open('https://twitter.com/OracleEditions', '_system');">  <img src="fr/img/twitter.png"  alt=""/></a> </div> 
+        
+        <div class="chapitrepalpite">
+       <svg width="100%" height="100%">
+  <circle id="orange-circle" r="30" cx="50" cy="50" fill="transparent"  stroke="#f2569d" stroke-width="6"   />
+  
+  <animate 
+           xlink:href="#orange-circle"
+           attributeName="r"
+           from="30"
+           to="45" 
+           dur="1s"
+         repeatCount="indefinite"
+            />
+			 <animate 
+           xlink:href="#orange-circle"
+           attributeName="stroke-width"
+           from="6"
+           to="1" 
+           dur="1s"
+         repeatCount="indefinite"
+            />
+</svg>
+       </div>
+        <div class="next">
+      <a href="en/chapitre1.html">  <img  src="fr/img/next.png" alt="menu" class="arrow-right" /></a>
+        </div>
         <!--<div id="autreslivres">
         
         <div id="titreCollec">Dans la même collection</div>
@@ -393,14 +432,150 @@ $('#autreslivres').append(livres.join(''));
         <div class="croixfermeture collectionfermer"><img src="fr/img/croix.png"  alt=""/></div>
         <h2>In the same collection</h2>
         
+        <div class="overflow">
+        <div class="presentationlivre bgrose">
+        	<div class="iconelivre"> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/lorigine-du-monde/', '_system');"> <img src="fr/img/icons/iconoriginemonde.png"  alt=""/></a></div>
+            <div class="descriptionlivre">
+            <h3> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/lorigine-du-monde/', '_system');"> L'Origine du Monde</a></h3>
+            <p class="rose"><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/lorigine-du-monde/', '_system');"> Au début règne le Chaos, puis le Ciel qui recouvre la Terre. Enfermé dans les profondeurs, le titan Chronos veut devenir maître de l’univers...</a></p>
+            </div>
+            
         
         </div>
-       
         
+        <div class="presentationlivre ">
+        	<div class="iconelivre"><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/minos-et-thesee/', '_system');"> <img src="fr/img/icons/iconthesee.png"  alt=""/></a></div>
+            <div class="descriptionlivre">
+            <h3> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/minos-et-thesee/', '_system');"> Minos et Thésée</a></h3>
+            <p class="rose"><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/minos-et-thesee/', '_system');">  Athènes doit  livrer chaque année neuf jeunes hommes et neuf jeunes filles en pâture au terrible Minotaure.
+Qui la délivrera de cette malédiction ?</a></p>
+            </div>
+            
+        
+        </div>
+        
+        <div class="presentationlivre bgrose">
+        	<div class="iconelivre"><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/la-naissance-des-hommes/', '_system');"> <img src="fr/img/icons/iconoriginehommes.png"  alt=""/></a></div>
+            <div class="descriptionlivre">
+            <h3> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/la-naissance-des-hommes/', '_system');"> La naissance des hommes</a></h3>
+            <p class="rose"><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/la-naissance-des-hommes/', '_system');"> Les hommes sont des créatures démunies de tout, plus misérables que les vers de terre. Comment vont ils survivre ? Heureusement, le titan Prométhée les prend en pitié...</a></p>
+            </div>
+            
+        
+        </div>
+        
+        <div class="presentationlivre ">
+        	<div class="iconelivre"><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/jason-et-les-argonautes/', '_system');"> <img src="fr/img/icons/iconjason.png"  alt=""/></a></div>
+            <div class="descriptionlivre">
+            <h3><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/jason-et-les-argonautes/', '_system');"> Jason et les argonautes</a></h3>
+            <p class="rose"> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/jason-et-les-argonautes/', '_system');"> Pour retrouver son trône, Jason doit conquérir la Toison d’Or. Pour cela, il recrute les plus grands héros de la Grèce, les  argonautes.</a></p>
+            </div>
+            
+        
+        </div>
+        
+        <div class="presentationlivre bgrose">
+        	<div class="iconelivre"> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/amour-et-psyche/', '_system');"> <img src="fr/img/icons/iconamour.png"  alt=""/></a></div>
+            <div class="descriptionlivre">
+            <h3> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/amour-et-psyche/', '_system');"> Amour et Psyché</a></h3>
+            <p class="rose"> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/amour-et-psyche/', '_system');"> La princesse Psyché est si belle qu’elle a rendu jalouse la déesse Aphrodite. Comment s'en sortira t-elle ?</a></p>
+            </div>
+        </div>
+       </div>
+        </div>
+        
+        
+            <div class="popup references">
+        <div class="croixfermeture referencesfermer"><img src="fr/img/croix.png"  alt=""/></div>
+        <h2>Bibliography</h2>
+       <div class="overflow">
+       <div class="bibliographie">
+       <div class="genre titre">Greek Literature:</div>
+       <div class="left w70"  >Homer, <em>“Illiad” and “Odyssey”</em><br>
+Hésiod, <em>“Theogony ”</em><br>
+Eschylus, <em>Plays</em><br>
+Euripides, <em>Plays</em><br>
+Sophocles, <em>Plays</em><br>
+Plato, <em>Dialogues</em><br>
+</div>
+       </div>
+       
+        <div class="bibliographie">
+       <div class="genre titre" >Latin Literature</div>
+       <div class="left w70">Ovid, <em>“Metamorphoses”</em><br>
+Virgil, <em>“The Aeneid”</em><br>
+ Seneca, <em>Plays</em><br>
+Apuleius, <em>“The Golden Ass”</em>
+</div>
+       </div>
+       
+        <div class="bibliographie">
+       <div class="genre titre" >French Literature</div>
+       <div class="left w70">Racine, <em>Plays </em><br>
+Corneille,<em> Plays</em><br>
+Giraudoux, <em>Plays</em><br>
+Jean Anouilh, <em>“Antigone”</em>
+</div>
+       </div>
+        <div class="bibliographie">
+       <div class="genre titre" >Literary Criticism and Studies</div>
+       <div class="left w70">
+            
+      
+       Paul Veyne, <em>“Les Grecs ont-ils cru à leurs mythes ?” </em><br>
+Moses Finley, <em>“The World of Odysseus”</em><br>
+Jacqueline de Romilly, <em>“La tragédie grecque”</em><br>
+Friedrich Nietzsche, <em>“The Birth of Tragedy”</em> <br>
+
+</div>
+       </div>
+       
+     
+        <div class="bibliographie">
+       <div class="genre titre" >Encyclopedia</div>
+       <div class="left w70">
+       
+       Wikipedia : the free encyclopedia
+</div>
+       </div>
+       </div>
+       
+  
+       
+       </div>
+       
+        <div class="popup equipe">
+        <div class="croixfermeture equipefermer"><img src="fr/img/croix.png"  alt=""/></div>
+        <h2>Oracle, c'est quoi ?</h2>
+       <div>
+       <div class="genre titre">&nbsp;</div>
+       <div class="biblio">
+       
+       <p class="rose" >
+      Oracle is born out of the desire to offer ancient history, popular legends and foundational myths through the use of illustrated, animated, audio digital books.
+       </p>
+       <p>We believe that these stories are the most beautiful and intelligent stories ever told… They are the most beautiful because they are the most intelligent. They have been a constant source of inspiration for artists over the year and they have structured our civilization.
+       </p>
+       <p class="rose" style="text-align:center;" ><em><strong>« These aren’t just stories, they are universes.»</strong></em></p>
+       <p>When we pretend to instruct kids while creating an enjoyable experience, we run a double risk: the risk to be boring and to take away the joy, and to be superficial and not create an instructional tool. We want to avoid this double reef: legends and myths are by definition teaching moments. It is therefore logical that we approach them in a pedagogical fashion.</p>
+       <p>
+The production of these digital books has required the assembly of a multidisciplinary team: project manager / editor, illustrator, graphic artists, animators, developers, actors and actresses...
+       </p>
+  <p>
+  
+  <a href="" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/equipe-oracle/', '_system', 'location=yes')"  >
+      <img src="fr/img/btn-equipe.png" class="boutonequipe"  alt=""/></a> </p>
+       </div>
+       </div>
+       </div>
         
         <script type="text/javascript" src="fr/index.js"></script>
         <script type="text/javascript">
             app.initialize();
+			
+		     app.initialize();
+			
+			  
 			
 			  $("#histoire").click(function (){
 
@@ -411,6 +586,31 @@ $('#autreslivres').append(livres.join(''));
 		   $(".collectionfermer").click(function (){
 
           $(".collection").toggleClass("visible");
+
+          });
+		  
+		  
+			  $("#oracle").click(function (){
+
+          $(".equipe").toggleClass("visible");
+
+          });
+		  
+		   $(".equipefermer").click(function (){
+
+          $(".equipe").toggleClass("visible");
+
+          });
+		  
+		    $("#references").click(function (){
+
+          $(".references").toggleClass("visible");
+
+          });
+		  
+		   $(".referencesfermer").click(function (){
+
+          $(".references").toggleClass("visible");
 
           });
 		  
@@ -426,6 +626,8 @@ $('#autreslivres').append(livres.join(''));
           $(".chapitres").toggleClass("visible");
 
           });
+		  
+		  
             </script>
         
     </body>
