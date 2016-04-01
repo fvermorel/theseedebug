@@ -307,16 +307,34 @@ background-image: url(img/btn-ouvrir.png);
 	z-index:9;
 	
 }
+.swiper-container {
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility:hidden;
+	/* Fix of Webkit flickering */
+	z-index:1;
+}
+.swiper-container {
+  width: 1024px;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  height: 768px;
+ 
+  text-align: center;
+}
 
         </style>
-        <script>
-
-		</script>
+       
         
         <title>Th&eacute;s&eacute;e</title>
 	</head>
 	<body>
-    
+  <div class="swiper-container ">  
 		<div id="wrapper">
             
            
@@ -559,7 +577,7 @@ La réalisation de ces livres numériques a nécessité de rassembler une équip
        </div>
  
  </div>       
-      
+ </div>     
         <script type="text/javascript" src="fr/index.js"></script>
         <script type="text/javascript">
 		
