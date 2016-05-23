@@ -18,7 +18,7 @@
     </author>
 	<preference name="orientation" value="landscape" />
 	<icon src="icon.png" platform="ios" />
-	<icon src="icon-156.png" platform="ios" width="156" height="156" />
+	<icon src="icon-152.png" platform="ios" width="152" height="152" />
 	<icon src="icon-120.png" platform="ios" width="120" height="120" />
 	<icon src="icon-76.png" platform="ios" width="76" height="76" />
 	<icon src="icon-72.png" platform="ios" width="72" height="72" />
@@ -26,7 +26,10 @@
 	
 	
 	<splash src="splash.png" platform="ios" width="1024" height="768" />
+	
 	<splash src="splash-portrait.png" platform="ios" width="768" height="1024" />
+	<splash src="splash-568h.png" platform="ios" width="640" height="1136" />
+
 
 	<preference name="splash-screen-duration" value="5000"/>
 	<preference name="DisallowOverscroll" value="true" />
