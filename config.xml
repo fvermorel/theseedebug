@@ -3,7 +3,11 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.phonegap.example"
         versionCode = "10" 
+<<<<<<< HEAD
         version     = "1.0.2" >
+=======
+        version     = "1.0.1" >
+>>>>>>> origin/master
 
     <!-- versionCode is optional and Android only -->
 
@@ -17,6 +21,7 @@
       Oracle Editions
     </author>
 	<preference name="orientation" value="landscape" />
+	<preference name="target-device" value="tablet" />
 	<icon src="icon.png" platform="ios" />
 	<icon src="icon-152.png" platform="ios" width="152" height="152" />
 	<icon src="icon-120.png" platform="ios" width="120" height="120" />
