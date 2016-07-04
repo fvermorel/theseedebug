@@ -367,11 +367,11 @@ background-image: url(img/btn-ouvrir.png);
           
           
           <div id="boiteBoutons2">
-       <a href="#" onclick="cordova.InAppBrowser.open('https://www.facebook.com/Oracle-%C3%89ditions-490954901072101/', '_system');"> 
+      
        
        
-         <img src="fr/img/fb.png"  alt=""/></a> 
-        <a href="#" onclick="cordova.InAppBrowser.open('https://twitter.com/OracleEditions', '_system');">  <img src="fr/img/twitter.png"  alt=""/></a> </div> 
+         <img src="fr/img/fb.png" id="facebook"  alt=""/>
+        <img src="fr/img/twitter.png" id="twitter"  alt=""/> </div> 
        <div class="chapitrepalpite">
        <svg width="100%" height="100%">
   <circle id="orange-circle" r="30" cx="50" cy="50" fill="transparent"  stroke="#f2569d" stroke-width="6"   />
@@ -437,52 +437,52 @@ background-image: url(img/btn-ouvrir.png);
         <h2>Dans la même collection</h2>
         
         <div class="overflow">
-        <div class="presentationlivre bgrose">
-        	<div class="iconelivre"> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/lorigine-du-monde/', '_system');"> <img src="fr/img/icons/iconoriginemonde.png"  alt=""/></a></div>
+        <div class="presentationlivre bgrose" id="monde" >
+        	<div class="iconelivre">  <img src="fr/img/icons/iconoriginemonde.png"  alt=""/></div>
             <div class="descriptionlivre">
-            <h3> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/lorigine-du-monde/', '_system');"> L'Origine du Monde</a></h3>
-            <p class="rose"><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/lorigine-du-monde/', '_system');"> Au début règne le Chaos, puis le Ciel qui recouvre la Terre. Enfermé dans les profondeurs, le titan Chronos veut devenir maître de l’univers...</a></p>
+            <h3 id="monde"> <a href="#" > L'Origine du Monde</a></h3>
+            <p class="rose"><a href="#" > Au début règne le Chaos, puis le Ciel qui recouvre la Terre. Enfermé dans les profondeurs, le titan Chronos veut devenir maître de l’univers...</a></p>
             </div>
             
         
         </div>
         
-        <div class="presentationlivre ">
-        	<div class="iconelivre"><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/minos-et-thesee/', '_system');"> <img src="fr/img/icons/iconthesee.png"  alt=""/></a></div>
+        <div class="presentationlivre " id="thesee">
+        	<div class="iconelivre"><a href="#" > <img src="fr/img/icons/iconthesee.png"  alt=""/></a></div>
             <div class="descriptionlivre">
-            <h3> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/minos-et-thesee/', '_system');"> Minos et Thésée</a></h3>
-            <p class="rose"><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/minos-et-thesee/', '_system');">  Athènes doit  livrer chaque année neuf jeunes hommes et neuf jeunes filles en pâture au terrible Minotaure.
+            <h3> <a href="#" > Minos et Thésée</a></h3>
+            <p class="rose"><a href="#" >  Athènes doit  livrer chaque année neuf jeunes hommes et neuf jeunes filles en pâture au terrible Minotaure.
 Qui la délivrera de cette malédiction ?</a></p>
             </div>
             
         
         </div>
         
-        <div class="presentationlivre bgrose">
-        	<div class="iconelivre"><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/la-naissance-des-hommes/', '_system');"> <img src="fr/img/icons/iconoriginehommes.png"  alt=""/></a></div>
+        <div class="presentationlivre bgrose" id="hommes">
+        	<div class="iconelivre"><a href="#" > <img src="fr/img/icons/iconoriginehommes.png"  alt=""/></a></div>
             <div class="descriptionlivre">
-            <h3> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/la-naissance-des-hommes/', '_system');"> La naissance des hommes</a></h3>
-            <p class="rose"><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/la-naissance-des-hommes/', '_system');"> Les hommes sont des créatures démunies de tout, plus misérables que les vers de terre. Comment vont ils survivre ? Heureusement, le titan Prométhée les prend en pitié...</a></p>
+            <h3> <a href="#"> La naissance des hommes</a></h3>
+            <p class="rose"><a href="#" > Les hommes sont des créatures démunies de tout, plus misérables que les vers de terre. Comment vont ils survivre ? Heureusement, le titan Prométhée les prend en pitié...</a></p>
             </div>
             
         
         </div>
         
-        <div class="presentationlivre ">
-        	<div class="iconelivre"><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/jason-et-les-argonautes/', '_system');"> <img src="fr/img/icons/iconjason.png"  alt=""/></a></div>
+        <div class="presentationlivre " id="jason">
+        	<div class="iconelivre"><a href="#" > <img src="fr/img/icons/iconjason.png"  alt=""/></a></div>
             <div class="descriptionlivre">
-            <h3><a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/jason-et-les-argonautes/', '_system');"> Jason et les argonautes</a></h3>
-            <p class="rose"> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/jason-et-les-argonautes/', '_system');"> Pour retrouver son trône, Jason doit conquérir la Toison d’Or. Pour cela, il recrute les plus grands héros de la Grèce, les  argonautes.</a></p>
+            <h3><a href="#" > Jason et les argonautes</a></h3>
+            <p class="rose"> <a href="#" > Pour retrouver son trône, Jason doit conquérir la Toison d’Or. Pour cela, il recrute les plus grands héros de la Grèce, les  argonautes.</a></p>
             </div>
             
         
         </div>
         
-        <div class="presentationlivre bgrose">
-        	<div class="iconelivre"> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/amour-et-psyche/', '_system');"> <img src="fr/img/icons/iconamour.png"  alt=""/></a></div>
+        <div class="presentationlivre bgrose" id="psyche">
+        	<div class="iconelivre"> <a href="#" > <img src="fr/img/icons/iconamour.png"  alt=""/></a></div>
             <div class="descriptionlivre">
-            <h3> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/amour-et-psyche/', '_system');"> Amour et Psyché</a></h3>
-            <p class="rose"> <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/amour-et-psyche/', '_system');"> La princesse Psyché est si belle qu’elle a rendu jalouse la déesse Aphrodite. Comment s'en sortira t-elle ?</a></p>
+            <h3> <a href="#" > Amour et Psyché</a></h3>
+            <p class="rose"> <a href="#" > La princesse Psyché est si belle qu’elle a rendu jalouse la déesse Aphrodite. Comment s'en sortira t-elle ?</a></p>
             </div>
             
         
@@ -568,10 +568,94 @@ La réalisation de ces livres numériques a nécessité de rassembler une équip
        </p>
   <p>
   
-  <a href="" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/equipe-oracle/', '_system', 'location=yes')"  >
-      <img src="fr/img/btn-equipe.png" class="boutonequipe"  alt=""/></a> </p>
+  
+      <img src="fr/img/btn-equipe.png" class="boutonequipe" id="equipe"  alt=""/> </p>
        </div>
        </div>
+       </div>
+       
+       
+       <div class="parentalgate" id="facebookgate">
+      <h2> Autorisation parentale</h2>
+       <p class="rose" style="text-align:center;" ><em><strong>« Est ce que j'ai demandé l'autorisation de mes parents pour surfer sur le web ? »</strong></em></p>
+       <div class="reponseparents"> 
+       
+      <a href="#" onclick="cordova.InAppBrowser.open('https://www.facebook.com/Oracle-%C3%89ditions-490954901072101/', '_system');"> OUI </a> - <a href="#" id="facebookclose">NON</a>
+       </div>
+       <p>&nbsp;</p>
+       </div>
+       
+       
+          <div class="parentalgate" id="twittergate">
+      <h2> Autorisation parentale</h2>
+       <p class="rose" style="text-align:center;" ><em><strong>« Est ce que j'ai demandé l'autorisation de mes parents pour surfer sur le web ? »</strong></em></p>
+       <div class="reponseparents"> 
+       
+      <a href="#" onclick="cordova.InAppBrowser.open('https://twitter.com/OracleEditions', '_system');"> OUI </a> - <a href="#" id="twitterclose">NON</a>
+       </div>
+       <p>&nbsp;</p>
+       </div>
+       
+       
+          <div class="parentalgate" id="equipegate">
+      <h2> Autorisation parentale</h2>
+       <p class="rose" style="text-align:center;" ><em><strong>« Est ce que j'ai demandé l'autorisation de mes parents pour surfer sur le web ? »</strong></em></p>
+       <div class="reponseparents"> 
+       
+      <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/equipe-oracle/', '_system');"> OUI </a> - <a href="#" id="equipeclose">NON</a>
+       </div>
+       <p>&nbsp;</p>
+       </div>
+       
+       
+         <div class="parentalgate" id="theseegate">
+      <h2> Autorisation parentale</h2>
+       <p class="rose" style="text-align:center;" ><em><strong>« Est ce que j'ai demandé l'autorisation de mes parents pour surfer sur le web ? »</strong></em></p>
+       <div class="reponseparents"> 
+       
+      <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/achat-minos-et-thesee/', '_system');"> OUI </a> - <a href="#" id="theseeclose">NON</a>
+       </div>
+       <p>&nbsp;</p>
+       </div>
+       
+         <div class="parentalgate" id="mondegate">
+      <h2> Autorisation parentale</h2>
+       <p class="rose" style="text-align:center;" ><em><strong>« Est ce que j'ai demandé l'autorisation de mes parents pour surfer sur le web ? »</strong></em></p>
+       <div class="reponseparents"> 
+       
+      <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/achat-lorigine-du-monde/', '_system');"> OUI </a> - <a href="#" id="mondeclose">NON</a>
+       </div>
+       <p>&nbsp;</p>
+       </div>
+       
+         <div class="parentalgate" id="hommesgate">
+      <h2> Autorisation parentale</h2>
+       <p class="rose" style="text-align:center;" ><em><strong>« Est ce que j'ai demandé l'autorisation de mes parents pour surfer sur le web ? »</strong></em></p>
+       <div class="reponseparents"> 
+       
+      <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/achat-la-naissance-des-hommes/', '_system');"> OUI </a> - <a href="#" id="hommesclose">NON</a>
+       </div>
+       <p>&nbsp;</p>
+       </div>
+       
+         <div class="parentalgate" id="jasongate">
+      <h2> Autorisation parentale</h2>
+       <p class="rose" style="text-align:center;" ><em><strong>« Est ce que j'ai demandé l'autorisation de mes parents pour surfer sur le web ? »</strong></em></p>
+       <div class="reponseparents"> 
+       
+      <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/achat-jason-et-les-argonautes/', '_system');"> OUI </a> - <a href="#" id="jasonclose">NON</a>
+       </div>
+       <p>&nbsp;</p>
+       </div>
+       
+         <div class="parentalgate" id="psychegate">
+      <h2> Autorisation parentale</h2>
+       <p class="rose" style="text-align:center;" ><em><strong>« Est ce que j'ai demandé l'autorisation de mes parents pour surfer sur le web ? »</strong></em></p>
+       <div class="reponseparents"> 
+       
+      <a href="#" onclick="cordova.InAppBrowser.open('http://oracle-editions.com/achat-amour-et-psyche/', '_system');"> OUI </a> - <a href="#" id="psycheclose">NON</a>
+       </div>
+       <p>&nbsp;</p>
        </div>
  
  </div>       
@@ -634,6 +718,94 @@ La réalisation de ces livres numériques a nécessité de rassembler une équip
           $(".chapitres").toggleClass("visible");
 
           });
+		   $("#facebook").click(function (){
+
+          $("#facebookgate").toggleClass("visible");
+
+          });
+		  $("#facebookclose").click(function (){
+
+          $("#facebookgate").toggleClass("visible");
+
+          });
+		  
+		   $("#twitter").click(function (){
+
+          $("#twittergate").toggleClass("visible");
+
+          });
+		  $("#twitterclose").click(function (){
+
+          $("#twittergate").toggleClass("visible");
+
+          });
+		  
+		   $("#thesee").click(function (){
+
+          $("#theseegate").toggleClass("visible");
+
+          });
+		  $("#theseeclose").click(function (){
+
+          $("#theseegate").toggleClass("visible");
+
+          });
+		  
+		  $("#monde").click(function (){
+
+          $("#mondegate").toggleClass("visible");
+
+          });
+		  $("#mondeclose").click(function (){
+
+          $("#mondegate").toggleClass("visible");
+
+          });
+		  
+		  $("#hommes").click(function (){
+
+          $("#hommesgate").toggleClass("visible");
+
+          });
+		  $("#hommesclose").click(function (){
+
+          $("#hommesgate").toggleClass("visible");
+
+          });
+		  
+		  $("#jason").click(function (){
+
+          $("#jasongate").toggleClass("visible");
+
+          });
+		  $("#jasonclose").click(function (){
+
+          $("#jasongate").toggleClass("visible");
+
+          });
+		  
+		  $("#psyche").click(function (){
+
+          $("#psychegate").toggleClass("visible");
+
+          });
+		  $("#psycheclose").click(function (){
+
+          $("#psychegate").toggleClass("visible");
+
+          });
+		  
+		  $("#equipe").click(function (){
+
+          $("#equipegate").toggleClass("visible");
+
+          });
+		  $("#equipeclose").click(function (){
+
+          $("#equipegate").toggleClass("visible");
+
+          });
+		  
 		  
 		  
 
