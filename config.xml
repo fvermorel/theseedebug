@@ -3,11 +3,9 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.phonegap.example"
         versionCode = "10" 
-<<<<<<< HEAD
-        version     = "1.0.2" >
-=======
-        version     = "1.0.1" >
->>>>>>> origin/master
+
+        version     = "1.0.2" 
+
 
     <!-- versionCode is optional and Android only -->
 
