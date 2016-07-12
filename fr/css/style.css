@@ -938,16 +938,22 @@ width: 30%;
 	height:100%;
 	visibility: hidden;
 }
+.parentalgate ul{
+	padding-left:0px;
+}
+.parentalgate .rose{
+	margin-bottom:50px;
+}
 .reponseparents {
 	font-family:verdana;
 	   
 		text-align:center;
-		font-size:60px;
+		
 		margin-top:20%;
 	color: #f2569d;
 }
 .reponseparents a{
-
+font-size:40px;
 	    color: #f2569d;
 		
 	
